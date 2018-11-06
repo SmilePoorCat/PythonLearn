@@ -8,7 +8,7 @@ import requests
 import demjson
 
 
-class LuckyTicket(Process):
+class LuckyTicket(threading.Thread):
     def __init__(self, url, q):
         super(LuckyTicket, self).__init__()
         self.url = url
@@ -27,8 +27,8 @@ class LuckyTicket(Process):
         self.get_info()
         print('线程结束了2')
 
-    def is_alive(self):
-        return Process.is_alive(self)
+    #def is_alive(self):
+    #    return Process.is_alive(self)
 
     def get_info(self):
         html = requests.get(
@@ -46,13 +46,16 @@ class LuckyTicket(Process):
 
 def main():
     year = ['2014', '2015', '2016', '2017', '2018']
-    page = ['1', '2']
+    page = ['1', '2', '3', '4']
     q = Queue()
     url_list = []
     # 构造所有URL
     for y in year:
         for p in page:
-            base_url = 'http://www.cwl.gov.cn/cwl_admin/kjxx/findDrawNotice?name=ssq&issueCount=&issueStart=&issueEnd=&dayStart=' + y + '-01-01&dayEnd=' + y + '-12-31&pageNo=' + p
+            #http://www.cwl.gov.cn/kjxx/fc3d/kjgg/
+            #http://www.cwl.gov.cn/kjxx/ssq/kjgg/
+            #base_url = 'http://www.cwl.gov.cn/cwl_admin/kjxx/findDrawNotice?name=ssq&issueCount=&issueStart=&issueEnd=&dayStart=' + y + '-01-01&dayEnd=' + y + '-12-31&pageNo=' + p
+            base_url = 'http://www.cwl.gov.cn/cwl_admin/kjxx/findDrawNotice?name=3d&issueCount=&issueStart=&issueEnd=&dayStart=' + y + '-01-01&dayEnd=' + y + '-12-31&pageNo=' + p
             url_list.append(base_url)
     # 保存进程
     Process_list = []
@@ -65,7 +68,7 @@ def main():
     print('开始加入线程')
     # 让主进程等待子进程执行完成
     for i in Process_list:
-        print("线程状态"+str(i.is_alive()))
+        #print("线程状态"+str(i.is_alive()))
         i.join()
 
     print('线程加入完成')

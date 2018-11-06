@@ -8,15 +8,21 @@ import urllib, requests
 import re
 import lxml
 import zlib
+import threading
 from multiprocessing import Process, Queue
 
 
-class MyCrawler:
-    def __init__(self, seeds):
+class MyCrawler(threading.Thread):
+    def __init__(self, seeds,crawl_deepth, q, linkQuence):
+        super(MyCrawler, self).__init__()
+        #加入结果队列
+        self.q = q
+        self.seeds = seeds
+        self.crawl_deepth = crawl_deepth
         # 初始化当前抓取的深度
         self.current_deepth = 1
         # 使用种子初始化url队列
-        self.linkQuence = linkQuence()
+        self.linkQuence = linkQuence
         if isinstance(seeds, str):
             self.linkQuence.addUnvisitedUrl(seeds)
         if isinstance(seeds, list):
@@ -24,8 +30,11 @@ class MyCrawler:
                 self.linkQuence.addUnvisitedUrl(i)
         print("Add the seeds url \"%s\" to the unvisited url list" % str(self.linkQuence.unVisited))
 
+    def run(self):
+        self.crawling(self.seeds,self.crawl_deepth)
+
     # 抓取过程主函数
-    def crawling(self, seeds, crawl_deepth, file_out):
+    def crawling(self, seeds, crawl_deepth):
         # 循环条件：抓取深度不超过crawl_deepth
         while self.current_deepth <= crawl_deepth:
             # 循环条件：待抓取的链接不空
@@ -36,7 +45,7 @@ class MyCrawler:
                 if visitUrl is None or visitUrl == "":
                     continue
                 # 获取超链接
-                links = self.getHyperLinks(visitUrl, file_out)
+                links = self.getHyperLinks(visitUrl)
                 # titles = linksAndTitle[1]
                 print("Get %d new links" % len(links))
                 # print("Links'Title is %d " % len(titles))
@@ -51,34 +60,46 @@ class MyCrawler:
             self.current_deepth += 1
 
     # 获取源码中得超链接
-    def getHyperLinks(self, url, file_out):
+    def getHyperLinks(self, url):
         links = []
-        titles = []
-        file = open(file_out, mode='a+', encoding="utf-8")
         data = self.getPageSource(url)
+        #print(data)
         if data[0] == "200":
             soup = BeautifulSoup(data[1], "lxml")
-            a = soup.findAll("a", {"href": re.compile('^http|^/')})
+            #a = soup.findAll("a", {"href": re.compile('^http|^/')})
+            a = soup.findAll("a")
+
             if soup.title:
                 t = soup.title.string
+                t = t.strip()
             else:
                 t = 'null'
-            file.write(str(t)+","+str(url))
+            #file.write(str(t)+","+str(url))
+            self.q.put(str(t)+","+str(url))
             for i in a:
-                if i["href"].find("http://") != -1:
-                    links.append(i["href"])
-        file.close()
+                if 'href' in str(i):
+                    #print(i)
+                    if i["href"].find("http://") != -1:
+                        links.append(i["href"])
+                    else:
+                        #print(url + i["href"])
+                        links.append(url+i["href"])
         return links
 
     # 获取网页源码
     def getPageSource(self, url, timeout=100, coding=None):
         try:
-            socket.setdefaulttimeout(timeout)
+            #socket.setdefaulttimeout(timeout)
             header = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
             }
-            response = requests.get(url=url, headers=header)
+            response = requests.get(url=url, headers=header, timeout=5)
             page = response.content
+            content_type = response.headers.get('Content-Type')
+            #status = str(response.headers.get('status'))
+            #print(content_type,status)
+            #if 'text/html' != content_type:
+            #    return ['Other Files', None]
             # if response.headers.get('Content-Encoding') == 'gzip':
             #    page = zlib.decompress(page, zlib.MAX_WBITS | 16)
 
@@ -146,11 +167,28 @@ class linkQuence:
         return len(self.unVisited) == 0
 
 
-def main(seeds, crawl_deepth, file_out):
+def main(seeds, crawl_deepth, file_out,linkQuence):
+    q = Queue()
+    # 保存进程
+    Process_list = []
+    # 创建并启动进程
+    for i in range(3):
+        p = MyCrawler(seeds,crawl_deepth, q, linkQuence)
+        p.start()
+        Process_list.append(p)
 
-    craw = MyCrawler(seeds)
-    craw.crawling(seeds, crawl_deepth, file_out)
+    # 让主进程等待子进程执行完成
+    for i in Process_list:
+        i.join()
+
+    file = open(file_out, mode='a+', encoding="utf-8")
+    while not q.empty():
+        file.write(q.get()+"\n")
+    file.close()
+    #craw = MyCrawler(seeds)
+    #craw.crawling(seeds, crawl_deepth, file_out)
 
 
 if __name__ == "__main__":
-    main(["http://www.sina.com.cn"], 2, 'test1.txt')
+    linkQuence = linkQuence()
+    main(["http://www.zhuishushenqi.com/"], 3, 'zhuishushenqi.txt',linkQuence)

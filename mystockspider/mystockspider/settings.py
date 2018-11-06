@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for ScrapySpider project
+# Scrapy settings for mystockspider project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,17 +9,17 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'ScrapySpider'
+BOT_NAME = 'mystockspider'
 
-SPIDER_MODULES = ['ScrapySpider.spiders']
-NEWSPIDER_MODULE = 'ScrapySpider.spiders'
+SPIDER_MODULES = ['mystockspider.spiders']
+NEWSPIDER_MODULE = 'mystockspider.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+#USER_AGENT = 'mystockspider (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = False
+#ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -33,7 +33,7 @@ ROBOTSTXT_OBEY = False
 #CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
-COOKIES_ENABLED = False
+#COOKIES_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
@@ -47,14 +47,17 @@ COOKIES_ENABLED = False
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'ScrapySpider.middlewares.ScrapyspiderSpiderMiddleware': 543,
+#    'mystockspider.middlewares.MystockspiderSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'ScrapySpider.middlewares.ScrapyspiderDownloaderMiddleware': 543,
-#}
+# 配置下载中间件
+DOWNLOADER_MIDDLEWARES = {
+    # 'myspider.middlewares.MyCustomDownloaderMiddleware': 543,
+    'mystockspider.middlewares.ProxyMiddleware': 543,
+}
+
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
@@ -64,9 +67,10 @@ COOKIES_ENABLED = False
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'ScrapySpider.pipelines.ScrapyspiderPipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'mystockspider.pipelines.MystockspiderPipeline': 300,
+    'mystockspider.pipelines.StockSavingPipeline': 100,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -88,4 +92,3 @@ COOKIES_ENABLED = False
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-FEED_EXPORT_ENCODING = 'utf-8'

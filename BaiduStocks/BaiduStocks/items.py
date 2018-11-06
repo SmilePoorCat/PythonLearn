@@ -8,14 +8,7 @@
 import scrapy
 
 
-class ScrapyspiderItem(scrapy.Item):
+class BaidustocksItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    title = scrapy.Field()
-    link = scrapy.Field()
-    desc = scrapy.Field()
-
-class BiqugeItem(scrapy.Item):
-    title = scrapy.Field()
-    link = scrapy.Field()
-    desc = scrapy.Field()
+    pass

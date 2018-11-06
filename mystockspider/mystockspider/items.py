@@ -8,14 +8,16 @@
 import scrapy
 
 
-class ScrapyspiderItem(scrapy.Item):
+class MystockspiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    title = scrapy.Field()
-    link = scrapy.Field()
-    desc = scrapy.Field()
+    pass
 
-class BiqugeItem(scrapy.Item):
-    title = scrapy.Field()
-    link = scrapy.Field()
-    desc = scrapy.Field()
+# 个股数据模型
+class StockItem(scrapy.Item):
+
+    # 股票名称
+    name = scrapy.Field()
+
+    # 股票详细信息
+    data = scrapy.Field()
