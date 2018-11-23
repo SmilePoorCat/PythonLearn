@@ -1,0 +1,64 @@
+
+
+
+
+邮箱登录
+
+
+
+RoundCube Mail
+
+
+
+/* <![CDATA[ */
+
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"login","request_token":"22f9b3ceca9ddea57e83486e9f93b4a9","keep_alive":60,"action":"","comm_path":".\/?_task=mail","ibc_check_private":0,"notice_today":null});
+if(window.parent && parent.rcmail) parent.rcmail.set_busy(false);
+rcmail.add_label("loading","\u6b63\u5728\u52a0\u8f7d...");
+rcmail.add_label("servererror","\u670d\u52a1\u5668\u9519\u8bef!");
+rcmail.add_label("resend_message.mailfmterror","[resend_message.mailfmterror]");
+rcmail.add_label("isolation_admin.isreportrubbishmail","\u611f\u8c22\u53c2\u4e0e\u5b89\u5168\u90ae\u4ef6\u7cfb\u7edf\u5783\u573e\u90ae\u4ef6\u4e3e\u62a5\uff0c\u8bf7\u786e\u8ba4\u662f\u5426\u4e3e\u62a5\u8be5\u90ae\u4ef6\uff1f");
+rcmail.add_label("isolation_admin.passRubbishEmail","\u611f\u8c22\u53c2\u4e0e\u5b89\u5168\u90ae\u4ef6\u7cfb\u7edf\u5783\u573e\u90ae\u4ef6\u4e3e\u62a5\uff0c\u8bf7\u786e\u8ba4\u8fd9\u5c01\u4e0d\u662f\u5783\u573e\u90ae\u4ef6\uff1f");
+rcmail.add_label("isolation_admin.noselectionmail","\u8bf7\u9009\u62e9\u90ae\u4ef6!");
+rcmail.add_label("isolation_admin","[isolation_admin]");
+rcmail.gui_object('message', 'message');
+rcmail.gui_object('loginform', 'form');
+rcmail.register_button('login', 'rcmbtn100', 'input', '', '', '');
+/* ]]> */
+
+
+
+
+
+
+
+
+ 
+中国政府网首页 国务院客户端下载
+
+
+
+
+
+@mail.gov.cn@test.com@mail.gov.cn@mail.gov.cn 记住用户名记住密码 
+
+
+
+
+本站邮箱暂供国务院办公厅内部管理使用
+
+
+
+
+
+
+
+
+
+/* <![CDATA[ */
+
+$(document).ready(function(){ rcmail.init(); });
+/* ]]> */
+
+

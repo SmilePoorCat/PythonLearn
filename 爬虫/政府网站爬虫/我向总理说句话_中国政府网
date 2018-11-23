@@ -1,0 +1,880 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+我向总理说句话_中国政府网
+
+
+
+
+
+
+
+
+
+.slidesjs-previous{background:url(http://www.gov.cn/govweb/xhtml/2016gov/images/public/index_btn01.png) no-repeat;left:0px}
+.slidesjs-next{background:url(http://www.gov.cn/govweb/xhtml/2016gov/images/public/index_btn02.png) no-repeat;right:0px}
+.slidesjs-pagination-item a{float:left;display:block;width:12px;height:12px;text-indent:-9999em;margin:0 5px 0 5px;background:url(http://www.gov.cn/govweb/xhtml/2016gov/images/index/banner_li2.jpg) no-repeat; _margin:0 2px 0 2px;}
+.slidesjs-pagination-item a.active{background:url(http://www.gov.cn/govweb/xhtml/2016gov/images/index/banner_li1.jpg) no-repeat; _margin:0 2px 0 2px;}
+.saySoBig .zl_channel_body ul li span{ color:#015293;}
+.saySoBig .chanel_tab_main{ margin-top:0px;}
+.h30{height:30px;}
+.index_focus .lft_pic{width:100%;height:364px;overflow:hidden;float:left;}
+.slider-carousel{position:relative;width:100%;height:364px;overflow:hidden;}
+.slider-carousel .item{width:100%;height:364px;}
+.slidesjs-pagination{overflow:hidden;zoom:1;position:absolute;right:15px;top:335px;width:110px;height:12px;z-index:10;overflow:hidden;}
+.xglj{
+	margin:0px auto;
+	 background-color:#fff;
+	 width:100%;
+	 height:364px;
+	  margin-top:20px;
+}
+.dt{
+	float:left;
+	width:745px;
+	height:364px;
+}
+.saySoBig .zl_channel_body ul li{ line-height:22px; font-size:15px; font-family:"微软雅黑"; border-bottom:none; padding:10px 0px 10px 10px; color:#000000;background:url(/govweb/xhtml/2016gov/hudong/xhd/images/list001.jpg) no-repeat left 20px;}
+.line_01{border-bottom:1px solid #ccc; margin-bottom:15px;}
+ul.lyxd li p a.time {
+	position: absolute;
+	right: 15px;
+	color: #666666;
+}
+.dys_wlck{
+	width: 934px;
+	margin: 20px 0 10px 0;
+	padding: 34px 46px 0;
+}
+.dys_wlck p{
+	font-family: "微软雅黑";
+	font-size: 17px;
+	color: #025395;
+	line-height: 32px;
+	font-weight: bold;
+	text-indent: 35px;
+}
+.dys_wlck p span{
+	font-size: 14px;
+	color: #00a0e9;
+}
+.dys_wlck_zhankai{
+	height: 441px;
+	background: url(/govweb/xhtml/2016gov/hudong/reviseTheInteraction/images/wlck_bg.jpg) 0 0 no-repeat;
+	display: none;
+}
+.dys_wlck_shouqi{
+	height: 337px;
+	background: url(/govweb/xhtml/2016gov/hudong/reviseTheInteraction/images/shouqi.jpg) 0 0 no-repeat;
+	
+}
+.dys_yuanjiao_father{
+	width: 100%;
+	margin-bottom: 45px;
+}
+.dys_yuanjiao{
+	width: 1040px;
+}
+.dys_yuanjiao li{
+	width: 196px;
+	height: 43px;
+	float: left;
+	line-height: 43px;
+	vertical-align: middle;
+	background: url(/govweb/xhtml/2016gov/hudong/reviseTheInteraction/images/yuanjiao.png) 0 0 no-repeat;
+	text-align: center;
+	margin-right: 12px;
+	display: inline;
+}
+.dys_yuanjiao li a{
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+.dys_zmy{
+	padding: 21px;
+	background: #f2f2f2;
+}
+.dys_zmy_con{
+	
+	padding: 20px 15px;
+	margin-bottom: 20px;
+}
+.dys_zmy_con h5{
+	
+	font-family: "微软雅黑";
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 15px;
+} 
+.dys_zmy_con h5 a{
+	color: #015293;
+}
+.dys_zmy_con p{
+	color: #666;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 24px;
+} 
+.dys_zmy_con p i{
+	color: #015293;
+	font-weight: bold;
+	font-style: normal;
+	
+} 
+.dys_marginBottom{
+	margin-bottom: 15px;
+}
+
+.dys_zmy_con p a{
+	font-size: 14px;
+	color: #015293;
+} 
+.dys_tongji{
+	background: url(/govweb/xhtml/2016gov/hudong/reviseTheInteraction/images/tongji.jpg) 0 0 no-repeat;
+	border-bottom: 2px solid #024886;
+	height: 38px;
+	margin-bottom: 31px;
+}
+.dys_remove_padding{
+	padding: 0;
+}
+.dys_margin_bottom22{
+	margin-bottom: 22px;
+	border: none;
+}
+.dys_imgmar_bottom img{
+	margin-bottom: 10px;
+}
+.dys_banli{
+	background: url(/govweb/xhtml/2016gov/hudong/reviseTheInteraction/images/banli.jpg) 0 0 no-repeat;
+}
+.dys_banli_table{
+	width: 713px;
+	margin-bottom: 37px;
+}
+.dys_banli_table table{
+	width: 713px;
+	border-collapse:collapse;
+	border: none;
+}
+.dys_banli_table table tr{
+	
+}
+.dys_banli_table table tr th{
+	border: none;
+	padding: 13px 0;
+	color: #333;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	background: #eee;
+}
+.dys_banli_table table td{
+	text-align: center;
+	padding: 13px 0;
+	color: #333;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	background: #ecf6ff;
+	border: 2px solid #fff;
+}
+/*统计*/
+.dys_tj_img_father{
+	overflow: hidden;
+	width: 713px;
+}
+.dys_tj_img{
+	width: 727px;
+}
+.dys_tj_img li{
+	float: left;
+	display:inline;
+	margin-right: 13px;
+}
+.dys_tj_img li img{
+	border: 1px solid #ebebeb;
+	margin-bottom: 17px;
+}
+.dys_tj_img li p{
+	text-align: center;
+	color: #333;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.dys_add_border{
+	margin-bottom: 20px;
+	border: 1px solid #dcdcdd;
+}
+.nav01  a.dys_a_banli{
+	width: 82px;
+	display: inline-block;
+	height: 38px;
+}
+.dys_small_margin{
+	padding: 20px 15px 0;
+    margin-bottom: 0;
+}
+.dys_change_blank p{
+	color: #000;
+}
+.ewm img{ width: 223px; height: 225px; margin:0px auto;}
+
+
+
+
+
+
+
+
+
+
+首页 > 互动 > 我向总理说句话
+
+  
+
+
+
+
+
+欢迎你的到来。
+这里是中国政府网为大家开通的信息渠道，是进一步听取你对政府工作意见建议的网络窗口。
+民之所望，施政所向。政府工作离不开大家的宝贵意见。我们将努力办好这一栏目，以帮助中央政府更深入了解社情民意，履行法定职责，更好服务人民。
+你的每一条意见，都将被认真对待。我们会将大家的意见建议汇总整理，并进行专门研究。一些好的意见建议将被直接送到总理的办公桌上。请你珍惜并认真行使这一权利。
+你的意见建议可能被转给各有关方面，并可能以不同的方式向社会公开。如果你希望保留个人隐私，请在留言的同时做出声明，我们将充分尊重你的意愿并妥善处理。
+你看到的，是政府应当看见的；你听到的，是政府需要倾听的；你思考的，是政府希望了解的；你期盼的，是政府为之奋斗的。
+感谢你的支持和参与。你有真知灼见，我们天天在线。收起>>
+
+
+
+
+欢迎你的到来。
+这里是中国政府网为大家开通的信息渠道，是进一步听取你对政府工作意见建议的网络窗口。
+民之所望，施政所向。政府工作离不开大家的宝贵意见。我们将努力办好这一栏目，以帮助中央政府更深入了解社情民意，履行法定职责，更好服务人民。
+你的每一条意见，都将被认真对待。我们会将大家的意见建议汇总整理，并进行专门研究。一些好的意见建议将被直接送到总理的办公桌上。请你珍惜并认真行使这一权利。
+你的意见建议可能被转给各有关方面，并可能以不同的方式向社会公开。如果你希望保留个人隐私，请在留言的同时做出声明，我们将充分尊重你的意愿并妥善处理。展开>>
+
+
+
+
+
+我要留言
+留言选登
+留言办理
+留言统计
+往期活动回顾
+
+
+
+
+
+
+
+
+
+
+
+知民愿·留言回复更多>>
+
+
+
+
+
+
+
+
+
+ 
+
+										生态环境部答网民关于“限塑令颁布十年，为何塑料垃圾问题仍较严重？”的留言
+
+									
+
+网民Zeng说：我觉得限塑令似乎没什么意义。首先，超市内的散装食品是不是还得用断点式塑料袋？此袋和彼袋有啥区别，缺了两个提手设计而已，不还是塑料的？其次，也就是年龄相当大的一些人，为了省钱会自带布袋，此外就是一少部分确实有环保意识的人士会带。但大家想一下，除了从家出来直奔超市这种目的性非常强的行为，谁没事干总在身上装个袋子？去超市有时候就是一念之间。限塑令收益最大的就是超市和生产厂家，有利可图就会更加助长售卖和生产的积极性，更会屡禁不止，适得其反！
+
+
+生态环境部回复：国务院有关部门高度重视塑料垃圾污染防治工作。目前发展改革委正在会同生态环境部等相关部门，开展塑料垃圾污染防治的政策论证和文件起草工作；在发展改革委门户网站上设置“我为塑料垃圾污染防治献言献策”栏目，广泛征集社会各界的意见和建议；会同相关部门，深入地方和企业，对下一步政策方向进行调研和论证。查看全文>>
+
+
+
+
+
+
+
+ 
+
+										人力资源社会保障部答网民关于“社保没法办理跨地区转移，问题卡在哪儿？的留言
+
+网民刘先生说：我本人在老家山东菏泽成武县交了十多年的职工养老保险，没有社保卡。2014年我在山东青岛交运集团就职，签了劳动合同，交了社保并办了社保卡。2017年至今则一直由胶州代理中心或青岛农商银行代交。因为我已在胶州定居，所以想把社保迁移到胶州。我自2017年4月开始办理相关手续，至今已经1年多了，来回跑了好几次，一直没办成。胶州说材料不符合，成武那边说钱都转过来了，材料也没问题，不知道问题出在哪儿？
+
+
+人力资源社会保障部回复：目前，对办理社会保险转移接续不便问题，各地正在加快推进跨地区协办和网上业务受理，同时，人力资源社会保障部正在研究优化经办流程、简化证明材料，推动社会保险关系转移接续业务网上办理和顺畅衔接。查看全文>>
+
+
+
+
+
+听民意·留言选登更多>>
+
+
+
+ 
+ 
+
+ 
+
+                  
+网民“
+                    ZR
+                    ”:
+                                门诊药费也能异地直接结算该有多好
+
+                                  2018-11-19
+                                
+
+
+网民“
+                    远行者
+                    ”:
+                                统筹规划，避免道路反复施工长期施工
+
+                                  2018-11-19
+                                
+
+
+网民“
+                    小冯
+                    ”:
+                                政务服务中心应设二维码给办事员评分
+
+                                  2018-11-18
+                                
+
+
+网民“
+                    我信天是晴朗的
+                    ”:
+                                常用药价太高，农村医保药品应明确价格
+
+                                  2018-11-18
+                                
+
+
+网民“
+                    羊羊羊
+                    ”:
+                                一个技术性审查大半年，审批程序不统一
+
+                                  2018-11-17
+                                
+
+
+
+
+
+网民“
+                    中*行
+                    ”:
+                                省验血，能否将血型信息纳入身份证？
+
+                                  2018-11-17
+                                
+
+
+网民“
+                    无名平民
+                    ”:
+                                年审后还有技评，普货资格证能否取消？
+
+                                  2018-11-17
+                                
+
+
+网民“
+                    大哥飞
+                    ”:
+                                加快数据库更新,方便资格证件查真伪
+
+                                  2018-11-16
+                                
+
+
+网民“
+                    愚人张
+                    ”:
+                                旧医保卡作废后新卡下不来，看病太麻烦
+
+                                  2018-11-16
+                                
+
+
+网民“
+                    雪
+                    ”:
+                                距离镇上远，快递能送到村里就好了
+
+                                  2018-11-16
+                                
+
+
+
+
+
+
+
+
+
+
+更多>>
+
+
+
+
+留言人
+办理单位
+办理方式
+办理日期
+
+
+月萤舞成眠
+国务院办公厅
+按职责程序办理
+ 2018-10-16
+
+
+\(^o^)/~
+国务院办公厅
+按职责程序办理
+ 2018-10-16
+
+
+陈女士
+国务院办公厅
+按职责程序办理
+ 2018-10-16
+
+
+农业技术员
+国务院办公厅
+按职责程序办理
+ 2018-10-16
+
+
+毕庆军
+国务院办公厅
+按职责程序办理
+ 2018-10-16
+
+
+随风
+国务院办公厅
+按职责程序办理
+ 2018-10-09
+
+
+简单
+国务院办公厅
+按职责程序办理
+ 2018-10-09
+
+
+总理您好
+国务院办公厅
+按职责程序办理
+ 2018-10-09
+
+
+夜归人
+国务院办公厅
+按职责程序办理
+ 2018-10-09
+
+
+王先生
+国务院办公厅
+按职责程序办理
+ 2018-09-30
+
+
+
+
+
+统计更多>>
+
+
+
+
+
+ 
+2018年10月份留言数量分布情况
+
+
+
+ 
+2018年10月份留言内容分布前10位情况
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				  正在关注
+
+
+营商环境
+
+
+简政放权
+
+
+政务服务
+
+
+一网通办
+
+
+质量强国
+
+
+职业教育
+
+
+环境治理
+
+
+棚户区改造
+
+
+
+
+
+
+你的留言，将会.....
+
+
+                          秒懂国务院 | 你在网上留言，总理真能看见？
+                        
+
+                          从7岁到105岁，5.41亿字……我向总理说句话，背后的数据你知道吗
+                        
+
+                          普通人如何能成为总理的“座上宾”
+                        
+
+                          快递小哥被请进中南海，“我当面给总理进了一言”
+                        
+
+                          你的留言有回应！｜网民问手机卡异地销户、儿童脊灰疫苗接种等
+                        
+
+                          医保异地结算实现啦！你“向总理说句话”很重要
+                        
+
+
+
+
+
+
+					联系栏目组
+
+
+					sjhlanmuzu@mail.gov.cn
+
+
+
+
+
+					为了你的邮件得到及时有效处理和回应，请在你的邮件中留下你的真实信息和联络方式。我们将严格保护你的个人隐私。
+
+
+
+往期活动回顾
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+
+快递小哥被请进中南海，“我当面给总理进了一言”
+
+
+
+  
+ 
+
+从7岁到105岁，5.41亿字……我向总理说句话，背后的数据你知道吗
+
+
+
+  
+ 
+
+我向总理说句话，总理会听到吗？（短视频）
+
+
+
+  
+ 
+
+国务院大事我知道
+
+
+
+  
+ 
+
+图解：“我向总理说句话”，中国政府网感谢你！
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.write(unescape("%3Cscript src='http://stat.www.gov.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));
+wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")
+
+
+
+	;(function ($) {
+		
+		$('.dys_wlck_shouqi p span').on('click', function (event) {
+			
+			
+			$(this).parent().parent().parent().hide();
+			
+			$('.dys_wlck_zhankai').show();
+			
+			return false;
+			
+		});
+		$('.dys_wlck_zhankai p span').on('click', function () {
+			
+			$(this).parent().parent().parent().hide();
+			
+			$('.dys_wlck_shouqi').show();
+			
+			return false;
+			
+		});
+		
+	})(jQuery);
+
+
+
+$(function(){   
+    /*focus*/
+    var sliderElement = $('.slider-carousel');
+    sliderElement.slidesjs({
+        play: {
+            auto: true,
+            effect: 'fade'
+        },
+        navigation: {
+            effect: "fade"
+        },
+        pagination: {
+            effect: "fade"
+        },
+        effect: {
+            slide: {
+                speed: 400
+            }
+        }
+    });
+    var slidernav = sliderElement.find('.slidesjs-navigation');
+    sliderElement.hover(function() {
+        slidernav.stop().show()
+    },function() {
+        slidernav.stop().hide()
+    });
+  
+  slidernav.hover(function(){
+  	$(this).show();
+  }),function(){
+  	$(this).show();
+  }
+  
+  $('#demo02').flexslider({       
+        slideshow:true,
+        animation: "slide",
+        direction:"horizontal",
+        easing:"swing",
+        controlNav: false,
+        directionNav:true
+    });
+    $(".flexslider").each(function(){
+        $(this).hover(function(){
+            $(this).find(".flex-direction-nav").fadeIn("slow")
+        },function(){
+            $(this).find(".flex-direction-nav").hide()
+        })
+    })
+});
+
+
+
+(function() {
+    var N = 100;
+    var P = 0.6;
+    var R = N * P;
+    var X = Math.floor(Math.random() * N);
+    if (R >= X) {
+        _atrk_opts = {
+            atrk_acct: "noGfn1aMp4107i",
+            domain: "www.gov.cn",
+            dynamic: true
+        }; 
+        (function() {
+            var as = document.createElement("script");
+            as.type = "text/javascript";
+            as.async = true;
+            as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js";
+            var s = document.getElementsByTagName("script")[0];
+            var ns = document.createElement("noscript");
+            var img = document.createElement("img");
+            img.src ="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=noGfn1aMp4107i";
+            img.style="display:none";
+            img.height = 1;
+            img.width = 1;
+            img.alt = "";
+            s.parentNode.insertBefore(as, s);
+            s.parentNode.insertBefore(ns, s);
+            var nso = document.getElementsByTagName("noscript")[0];
+            nso.appendChild(img);
+        })();
+    }
+})();
+
+
+
+
+document.write(unescape("%3Cscript src='http://stat.www.gov.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));
+wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")
+
+
+(function() {
+    var N = 100;
+    var P = 0.9;
+    var R = N * P;
+    var X = Math.floor(Math.random() * N);
+    if (R >= X) {
+        _atrk_opts = {
+            atrk_acct: "noGfn1aMp4107i",
+            domain: "www.gov.cn",
+            dynamic: true
+        }; 
+        (function() {
+            var as = document.createElement("script");
+            as.type = "text/javascript";
+            as.async = true;
+            as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js";
+            var s = document.getElementsByTagName("script")[0];
+            var ns = document.createElement("noscript");
+            var img = document.createElement("img");
+            img.src ="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=noGfn1aMp4107i";
+            img.style="display:none";
+            img.height = 1;
+            img.width = 1;
+            img.alt = "";
+            s.parentNode.insertBefore(as, s);
+            s.parentNode.insertBefore(ns, s);
+            var nso = document.getElementsByTagName("noscript")[0];
+            nso.appendChild(img);
+        })();
+    }
+})();
+
+
+document.write(unescape("%3Cscript src='http://stat.www.gov.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));
+wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")
+
+
+(function() {
+    var N = 100;
+    var P = 0.9;
+    var R = N * P;
+    var X = Math.floor(Math.random() * N);
+    if (R >= X) {
+        _atrk_opts = {
+            atrk_acct: "noGfn1aMp4107i",
+            domain: "www.gov.cn",
+            dynamic: true
+        }; 
+        (function() {
+            var as = document.createElement("script");
+            as.type = "text/javascript";
+            as.async = true;
+            as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js";
+            var s = document.getElementsByTagName("script")[0];
+            var ns = document.createElement("noscript");
+            var img = document.createElement("img");
+            img.src ="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=noGfn1aMp4107i";
+            img.style="display:none";
+            img.height = 1;
+            img.width = 1;
+            img.alt = "";
+            s.parentNode.insertBefore(as, s);
+            s.parentNode.insertBefore(ns, s);
+            var nso = document.getElementsByTagName("noscript")[0];
+            nso.appendChild(img);
+        })();
+    }
+})();
+
+
+

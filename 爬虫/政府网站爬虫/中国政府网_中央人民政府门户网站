@@ -1,0 +1,6856 @@
+
+
+
+
+中国政府网_中央人民政府门户网站
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hd_lb{width:295px;height:370px;  position:relative;}
+#hd{}
+.look-talk{
+  width:310px;
+}
+.column3mi5 ul{
+  padding-top:0px;}
+.cxlist li{
+  float: left;
+  width: 98px;
+  height: 115px;
+  margin: 0px 6px;
+  list-style: none;
+}
+.column3ri{width:249px; background:#dcdcdd; float:right; padding:0 13px 7px;}
+.column3ri3{margin-bottom:2px;}
+.column3ri3 ul{margin-top:0px;}
+.cxlist li img{
+  width:64px;
+  height:64px;
+  margin:10px 20px;
+}
+.cxlist li a{
+  display: block;
+  text-align:center;
+  height:auto;
+  line-height:17px;
+  padding-left:0px;
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+}
+.cxlist li a:hover{
+  background:none;
+  height:auto;  
+  color: #000;
+  }
+.h90{height:117px; overflow:hidden;}
+.h125{margin-top:3px;height:125px; overflow:hidden;}
+ul.h90{margin-top:10px; margin-bottom:15px;}
+ul.h90 li{ font-size:15px; line-height:24px;font-family:"微软雅黑","宋体";background:url(/govweb/xhtml/2016gov/images/public/icon_10.jpg) no-repeat 0 13px; padding-left:10px;}
+ul.h90 a{color:#000;}
+ul.h90 li a:hover{color:#025194;}
+.lmtit a.a_line {
+    background: url(/govweb/xhtml/2016gov/images/public/line.jpg) no-repeat right;
+    padding-right: 15px;
+    margin-right: 12px;
+    float: left;
+}
+.sth .lmtit img{ position: relative;top:3px;}
+.column3ri{width:249px; background:#dcdcdd; float:right; padding:0 13px 10px;}
+.column3ri1{ margin-bottom:0px; padding-top:20px;}
+ul.h57{ margin-bottom:0px; margin-top:0px;}
+.mb30{ margin-bottom:30px;}
+.column3ri1 .lmtit{border-bottom:1px solid #bababa;}
+
+
+/*推荐主题*/
+.box20180503{
+  position: relative;
+  height: 97px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+.two_rmfl_box{
+  position: absolute;
+  left: 0;
+  top: 0;
+  
+}
+.two_rmfl_box li{
+  float: left;
+  width: 249px;
+  height: 97px;
+}
+.hot_title_nav20180517{
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  
+}
+.hot_title_nav20180517 a{
+  float: left;
+  width: 17px;
+  height: 15px;
+  background: #0074bf;
+  text-align: center;
+  line-height: 15px;
+  margin-right: 1px;
+  color: #fff;
+  font-family: "microsoft yahei";
+  font-size: 12px;
+}
+.hot_title_nav20180517 a.active{
+  background: #ffba34;
+}
+/*热门应用*/
+
+.tit{height: 36px;line-height: 36px;border-bottom: 1px solid #bababa;}
+.tit span{float: left;color: #000000;font-size: 20px;font-family:"FZZHUNYSK","微软雅黑","宋体";border-bottom: 2px solid #015293;position: relative;top: -1px;}
+.tit span a{color: #000000;font-size: 20px;font-family:"FZZHUNYSK","微软雅黑","宋体";}
+.tit.yyphb a{ display:inline-block; float:left;font-size: 16px;color: #999999;margin: 0 9px;font-family:"微软雅黑"; cursor:pointer;}
+.tit.yyphb b{border-right: 1px solid #999999;}
+ul.two_yyphb_box{margin: 10px 0 10px;
+    height: 251px;
+  *+height: 255px;
+    overflow: hidden;
+  border-radius:5px;
+  background-color:#fff;
+  border:1px solid ##cfcfd0;
+}
+
+@-moz-document url-prefix() {
+    ul.two_yyphb_box{
+      height: 255px;
+    }
+}
+ul.two_yyphb_box li {
+  height:42px;
+  overflow:hidden;
+    margin: 0px 10px;
+    padding: 6px 0;
+    border-bottom: 1px solid #bfbfbf;
+    position: relative;
+}
+ul.two_yyphb_box li .num{float: left;width: 20px;height: 20px;line-height: 20px;text-align: center;color: #fff;background: #959595;border-radius: 2px;margin: 20px 15px 0 10px;}
+ul.two_yyphb_box li .pic{float: left;margin-right:10px; position:relative;*+margin-top:-3px;}
+ul.two_yyphb_box li .txt p a.h_tit{color: #000;font-size: 15px; font-family: "微软雅黑","宋体";line-height: 22px; font-weight:normal;}
+ul.two_yyphb_box li .txt p a{font-size: 14px;font-weight: inherit;}
+ul.two_yyphb_box li .txt h3 span a{color: #0078d7;font-size: 16px;}
+ul.two_yyphb_box li .txt p{height: auto;overflow: hidden;}
+ul.two_yyphb_box li .txt p span{float: left; margin-right:10px;font-size: 14px;height: 18px;border: 1px solid #999999;text-align: center;line-height: 16px;color: #020202;border-radius: 5px;padding:0 3px;}
+ul.two_yyphb_box li .txt p b a{color: #666666;font-size: 14px; font-family:"微软雅黑"; font-weight:normal;}
+ul.two_yyphb_box li .txt p b{color: #666666;font-size: 14px; font-family:"微软雅黑"; font-weight:normal; cursor:pointer;}
+.yyphb span {border-bottom: 0;}
+.yyphb span.on {border-bottom: 2px solid #015293;}
+.yyphb a.on {color: #000;
+border-bottom: 2px solid #015293;
+}
+/*应用排行新加样式*/
+.two_yyphb_box li .pic .yd_ewm{position: absolute;
+
+    top: -20px;
+    display: none;
+    left: -35px;
+    z-index: 9999;    border: 5px solid #fff;}
+.two_yyphb_box li .yyph_ewm_ct{    position: absolute;
+    bottom: 33px;
+    z-index: 99999;
+    left: 45px;
+    display: none;
+    }
+
+            
+/*最新应用*/
+.two_zxyy_box{height: auto;overflow: hidden;margin-top:15px;}
+.two_zxyy_box a{float: left;width:120px; height:136px;text-align: center;font-size:14px;margin:0px 2px 5px 2px;font-family:"微软雅黑";}
+.two_zxyy_box a img{display: block;margin: 0 auto 5px;}
+.two_zxyy_box a span{display: block;line-height: 22px;color: #000000;}
+.two_zxyy_box a b{font-weight: normal;color: #0078d7;letter-spacing: -0.02em;overflow:hidden; font-family:"微软雅黑";}
+.zx_pop{position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.701961);
+    display: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-style: normal;
+    padding-top: 120px;
+    box-sizing: border-box;
+    font-family: 微软雅黑;}
+ .two_zxyy_box a img.ewm_ct{    position: absolute;
+    left: 65px;
+    top: 47px;
+    z-index: 9999;display: none;}
+/*检索开始*/
+.ser_search{width:257px;margin: 0 auto 10px;height: auto;overflow: hidden;}
+.ser_search .left{width: 250px;}
+.ser_search .left .zhetie ul{ z-index:9999;background: #fff;position: absolute;width: 79px;border: 1px solid #005393;box-sizing: border-box;display: none;}
+.ser_search .left .zhetie ul li{box-sizing: border-box;padding: 0.3rem 0 0.3rem 0.5rem;font-size:14px;border-bottom: 1px dashed #005393;}
+.ser_search .left .zhetie h3{width:79px;height:25px;overflow: hidden; margin-bottom:1px; background-color:#015293; color:#fff; font-size:14px; line-height:25px; text-align:center; cursor:pointer;}
+.ser_search .zhetie .left h3 a{float: left;color: #1b1b1b;padding: 0 7px;height: 30px;line-height: 30px;margin-right: 15px; font-size:14px;}
+.ser_search .zhetie .left h3 a.on{color: #fff;background: #015293;}
+.ser_search .left div{height: auto;overflow: hidden;border: 1px solid #015293;background: url(http://103.66.33.30/images/8/fw_2.jpg) no-repeat 190px center #015293;   -moz-border-radius:5px; /* Firefox */
+  -webkit-border-radius:5px; /* Safari 和 Chrome */
+  border-radius:5px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */}
+.ser_search .left div input[type=text]{    width: 180px;
+    float: left;
+    height: 18px;
+    border: 0;
+    padding: 5px 5px;}
+.ser_search .left div input[type=button]{float: right;width: 56px;height: 26px;border: 0;background: none;cursor: pointer;}
+.ser_search .left p{color: #333333;position: relative; margin-top:5px;}
+.ser_search .left p a{color: #333333;font-size: 12px;font-family: "宋体";padding-right: 10px;}
+.ser_search .left p b{font-weight: normal;font-size: 12px;font-family: "宋体";}
+.ser_search .left p .more{position: absolute;right: 0;color: #878787;font-size: 12px;font-family: "宋体";padding: 0;top: 4px;}
+.ser_search .right{margin-top: 20px;}
+.right{float: right;}
+.column3ri1_2{ background:none;}
+.mb15{ margin-bottom:15px;}
+.mb22{ margin-bottom:22px;} 
+.two_fwzt_slide{margin-top: 20px;position: relative;}
+.two_fwzt_slide .prev{width: 6px;height: 55px;background: url(/govweb/xhtml/2016gov/public/pic20181229/larrow.png) no-repeat center;display: block;position: absolute;left: -2px;top: 0;}
+.two_fwzt_slide .next{width: 6px;height: 55px;background:url(/govweb/xhtml/2016gov/public/pic20181229/rarrow.png) no-repeat center;display: block;position: absolute;right: -2px;top: 0;}
+.two_fwzt_slide .bd{width:229px;margin: 0 auto 10px;overflow: hidden;}
+ul.sjcx{clear:both;list-style:none; margin-top:15px;}
+ul.sjcx li{ float:left;margin:0px 3px 0px 3px; list-style:none;}
+ul.sjcx li a{color:#0078d7; font-size:16px;}
+.column3ri2{padding-top:5px;}
+.column3ri2_1{height:100px;}
+.column3ri2_1 ul li{ background:none;}
+.column3ri2_2 li{line-height:23px;}
+.dys_mb15{
+  
+}
+.column3mi6 li{line-height: 24px; }
+
+.logoLianghui{position: absolute;width:512px;height:62px;background:url(/govweb/xhtml/zhuanti/2018lhzfgzbg/images/logoLianghui.png) no-repeat;left:50%;margin-left:49px;top:13px;z-index: 3;}
+.cloud{position: absolute; width:100%;height:100%;*height:1226px;top:0px;right:0px; background:url(/govweb/xhtml/zhuanti/2018lhzfgzbg/images/cloud.png) no-repeat top center;-webkit-background-size:cover;
+background-size:cover;background-size:100% 100%\9;*background-size:100% 100%;z-index:-2;}
+.cloud2{opacity:0.4;right:0px;background-position:0 50% }
+.closeBg{position:absolute;width:28px;height:45px;top:7px;right:0px;z-index:999;cursor: pointer;
+}
+
+/*服务右侧全国政务服务总门户*/
+.qgzwfwzmh20180530{
+  float: right;
+  font-family: "微软雅黑","宋体";
+  font-size: 14px;
+  display: block;
+  line-height: 30px;
+  color: #888888;
+  font-weight: lighter;
+}
+
+
+.header_right{width:310px; margin-right:37px;}
+.search{ width:300px; height:22px; position:relative;}
+.search_mi{ width:263px; height:22px; line-height:22px; border:none; position:absolute; left:0; padding-left:14px; padding-right:23px;background:url(/govweb/xhtml/2016gov/images/public/sousuok.png) no-repeat; }
+
+
+
+.yeslogin ul,li{
+    list-style-type:none;   
+    padding:0;    
+    margin:0;   
+}   
+.yeslogin{
+  position:relative;
+  z-index:100;
+}
+.yeslogin ul li{
+  float:none; 
+  line-height: 34px;
+  margin-left: 15px;
+  width: 50px;
+} 
+.yeslogin ul li a{
+  color:#7B7B7B; 
+}
+.usercenter{
+  margin-top:10px;
+  border-bottom: 1px solid #F0F0F0;
+} 
+.yeslogin ul{
+    top:20px;
+    left:-20px;
+    position:absolute;  
+    display:none;
+    width:80px;
+    background-image: url("https://user.www.gov.cn/static/images/outborder.png");
+}   
+.yeslogin:hover ul{   
+  display:block;    
+} 
+.morphext > .animated {
+  display: inline-block;
+}
+
+.dys_fudong{
+  position: relative;
+  float: left;
+  width: 60px;
+}
+
+.dys_fudong span{
+  padding: 0;
+}
+.column3mi2 .lmtit {
+    height:28px;
+    margin-bottom: 10px;
+} 
+.two_fwzt_slide .bd{
+  height:56px;
+}
+.dyschangemt18{
+  margin-top: 18px;
+}
+.lmtit.jdmd.changedys20180330height{
+  height: 25px;
+}
+.column3lp_1 span{
+    float: right;
+    font-family: "微软雅黑","宋体";
+    font-size: 14px;
+    display: block;
+    line-height: 30px;
+}
+.column3lp_1 .lmtit span a {
+    float: right;
+    font-family: "微软雅黑","宋体";
+    font-size: 14px;
+    display: block;
+    line-height: 30px;
+    color: #888888;
+    font-weight: lighter;
+}
+.column3lp_1 .lmtit span a:hover{
+  color: #566a9d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+简
+|
+繁
+|
+EN
+|
+
+
+
+
+个人中心
+退出
+
+
+注册
+|
+登录
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+国务院
+
+总　　理李克强
+
+
+常务会议
+（
+视窗
+
+解读
+）
+
+
+副总理韩正孙春兰（女）胡春华刘鹤
+全体会议
+国务委员魏凤和王勇王毅肖捷赵克志
+秘 书 长肖捷（兼）
+组织机构
+
+
+
+总理
+
+最新
+讲话
+文章
+音频
+视频
+图片库
+媒体报道
+专题
+总理说
+
+
+新闻
+
+要闻
+专题
+政务联播
+新闻发布
+人事
+图片
+滚动
+
+
+政策
+
+最新
+文件库
+解读
+法律法规
+公报
+双创
+
+
+互动
+
+督查
+我向总理说句话
+高端访谈
+文津圆桌
+政策法规意见征集
+
+
+
+服务
+
+便民服务
+部门地方大厅
+政府权责清单
+服务搜索
+服务专题
+
+
+数据
+
+数据查询 
+数据快递
+数据要闻
+商品价格
+
+
+国情
+
+国旗
+国歌
+国徽 
+行政区划
+
+
+
+
+
+
+
+
+
+function j2gb(url)
+{
+  if(location.hostname="big5.gov.cn")
+  {
+      location.href="ht"+"tp://"+"www.gov.cn";
+      return false;
+  }
+else
+  {
+return false;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+习近平抵达斯里巴加湾开始对文莱达鲁萨兰国进行国事访问
+
+
+习近平：将中文睦邻友好关系提升到新高度 | 在文莱媒体发表署名文章 引热烈反响
+
+
+
+
+
+
+
+
+  
+ 
+
+习近平抵达斯里巴加湾开始对文莱达鲁萨兰国进行国事访问
+
+
+
+  
+ 
+
+李克强新加坡之行：以自贸区升级维护多边主义和自由贸易
+
+
+
+  
+ 
+
+我国成功发射第四十二、四十三颗北斗导航卫星
+
+
+
+  
+ 
+
+首届联合国世界地理信息大会技术与应用展览在华开幕
+
+
+
+  
+ 
+
+冬日动起来！
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+国务院国务院常务会议
+
+
+李克强新加坡之行：以自贸区升级维护多边主义和自由贸易 | 专题
+
+
+李克强总理出访这4个细节你注意到了吗？
+
+
+图集：《新加坡随想曲》中回顾李克强出席东亚合作领导人系列会 | 南洋旋律伴奏首次访新
+
+
+税务总局：个税改革将带来征管模式转变
+
+
+负面清单“由外及内” 外商投资改革“自浅入深”
+
+
+报告显示：我国碳排放增速逐渐降低
+
+
+
+
+
+
+专题
+
+
+
+李克强总理亚欧之行 | “1+6”圆桌对话会
+
+
+聚焦“互联网+政务服务” | 政务公开交流
+
+
+
+
+
+
+视 听 画 
+
+
+
+
+ 
+
+
+李克强新加坡之行，这4个细节你注意到了吗
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#audio_box{ position:relative; width:99px;height:243px;overflow:hidden; background:#d3d3d3; margin-top:18px;float:left;}
+.audiojs{ position:absolute; right:0px; top:2px; box-shadow:none; width:99px;height:241px; background:#ccc;}
+#audio_box .audio_list{ position:absolute; left:0px; bottom:40px; height:0px; overflow:hidden; z-index:99;background: rgba(0,0,0,0.6); width:100%; right:0px;}
+#audio_box .time em{ color:#858585;font-style:normal;}
+#audio_box .time{display: block; font-size:12px;_font-size:12px; border-left:none; color:#858585;text-shadow:none;margin:0;padding:0 0 0 3%; width:94%; height:36px;overflow:hidden;text-align: center;}
+#audio_box .duration{}
+.audiojs .progress{ background:#A2D101;}
+.audiojs .play-pause{width:87px;height:132px;}
+.audiojs .play-pause{ border-right:none;}
+.audiojs .loaded,.audiojs .scrubber{ width:470px; display:none;}
+.audiojs .pause,.audiojs .play{background:url(/govweb/xhtml/2016gov/images/public/icon_18.gif) no-repeat 0 0; width:61px; height:61px;margin-left:12px; margin-top:72px;}
+div.playing .play{ background-image:url(/govweb/xhtml/2016gov/images/public/icon_18_click.gif)}
+.spyp_main{ position:relative; height:318px;}
+.spyp_main .spyp_con{ position:absolute; left:0px; top:0px;}
+    
+        var a = audiojs.createAll({
+        trackEnded: function() {
+        var next = $('ol li.playing').next();
+        if (!next.length) next = $('ol li').first();
+        next.addClass('playing').siblings().removeClass('playing');
+        audio.load($('a', next).attr('data-src'));
+        //audio.play();
+        }
+      });
+      var audio = a[0];
+        first = $('ol a').attr('data-src');
+      $('ol li').first().addClass('playing');
+      audio.load(first);
+      $('ol li').click(function(e) {
+        e.preventDefault();
+        $(this).addClass('playing').siblings().removeClass('playing');
+        audio.load($('a', this).attr('data-src'));
+        audio.play();
+      });
+      $('#audio_box .next').click(function(){var next = $('li.playing').next();
+        if (!next.length) next = $('ol li').first();
+        next.click();})
+      $('#audio_box .prev').click(function(){var prev = $('li.playing').prev();
+        if (!prev.length) prev = $('ol li').last();
+        prev.click();})
+      $(document).keydown(function(e) {
+        var unicode = e.charCode ? e.charCode : e.keyCode;
+        if (unicode == 39) {
+        $('#audio_box .next').click()
+        } else if (unicode == 37) {
+        $('#audio_box .next').click()
+        }
+      })
+      $('.close_audio').click(function(){
+        startMove(document.getElementById('audio_list'), {
+          height:0
+        },
+        1e3, "bounceOut",function(){
+          $('#audio_box').fadeOut();
+          $('.open_music').fadeIn()
+        })
+      })
+      var audio_list=$('#audio_list');
+      $('.open_music').click(function(){
+        $(this).hide();
+        $('#audio_box').fadeIn(300,function(){
+          startMove(audio_list[0], {
+            height:audio_list.find('li').length*30+60
+          },
+          1e3, "bounceOut")
+        })
+      })
+        
+
+
+李克强结束出访回京
+
+
+
+
+
+ 
+
+
+日历 | 李克强总理出席东亚峰会
+
+
+
+
+
+
+政务联播
+
+【三部门】正式发布电子证照六项国家标准
+【财政部】印发代理记账行业协会管理办法
+【林草局】开展林业安全生产大检查督查
+【甘肃】开展青少年近视调查工作
+【贵州】两次提高城乡居民基础养老金标准
+【广西】多举措降低企业用地成本
+
+
+
+
+
+经典瞬间秒懂国务院　
+
+
+
+
+ 
+李克强参观华为公司“专利墙”（2015-01-04）
+
+
+
+
+
+ 
+秒懂国务院 | “证照分离”，分手快乐！
+
+
+
+
+
+
+
+
+
+政策政府信息公开专栏
+
+
+
+中共中央 国务院关于学前教育深化改革规范发展的若干意见 | 解读（11-15）
+
+国办印发关于调整国务院第二次全国污染源普查领导小组组成人员的通知（11-12）
+
+国办印发《政府网站集约化试点工作方案》（11-09）
+
+消防救援衔标志式样和佩带办法（11-08）
+
+国办印发《关于聚焦企业关切进一步推动优化营商环境政策落实的通知》（11-08）
+
+国办印发《关于调整国务院抗震救灾指挥部组成人员的通知》（11-07）
+
+国务院批复进一步支持杨凌农业高新技术产业示范区发展若干政策（11-05）
+
+
+
+
+
+
+文件库
+国务院公报
+
+
+
+
+
+
+全部
+过去一周
+过去一月
+
+
+
+至
+
+
+高级搜索
+
+
+
+        $(function(){
+          $("input.searchwj").val("搜索")
+        })
+      
+
+
+
+
+
+
+          a {
+            text-decoration: none;
+          }
+          .con_01 {
+            width: 295px;
+            height: 365px;
+            margin: 0px auto;
+          }
+          .btn_001 {
+            float: left;
+            width: 98px;
+            height:28px;
+            margin: 0px 24px;
+            line-height: 27px;
+            text-align: center;
+            background-image: url('/govweb/xhtml/2016gov/20170512ceshi/images/btn0512.png');
+          }
+          .btn_001 a {
+            color: #fff;
+            font-size: 14px;
+            /*font-weight: bold;*/
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .box_0001 {
+            clear: both;
+            position: relative;
+            width: 281px;
+            height: 109px;
+            margin-bottom: 15px;
+            padding: 12px 5px 5px 5px;
+            border: 1px solid #ccc;
+          }
+          .box_0001 h3 {
+            position: absolute;
+            left: 100px;
+            top: -12px;
+            width: 77px;
+            height: 24px;
+            text-align: center;
+            background-color: #fff;
+          }
+          .box_0001 h3 a {
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 24px;
+            color: #3c3c3c;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+       .left_right_sroll_father{
+            position: relative;
+            height: 143px;
+            width: 293px;
+            overflow: hidden;
+          }
+          .left_right_sroll{
+             position: absolute;
+             left: 0;
+             top: 0;
+          }
+          .left_right_sroll .box_0001{
+            float: left;
+            clear: none;
+          }
+          .wenzi_box {
+            float: left;
+            width: 158px;
+            margin-right: 10px;
+          }
+          .wenzi_box h2{
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 4px;
+            color: #015293;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .wenzi_box h2 a{
+            font-weight: bold;
+            font-size: 15px;
+            color: #015293;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .wenzi_box p {
+            color: #1a1a1a;
+            font-size: 13px;
+            line-height: 20px;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .wenzi_box p a {
+            color: #2ea0fb;
+          }
+          .anniu_box {
+            clear: both;
+            height: 44px;
+          }
+          .r_pic {
+            float: right;
+            width: 105px;
+            height: 105px;
+    
+          }
+          .mb_8 {
+            margin-bottom: 8px;
+          }
+      .column3ri1 .lmtit{
+        border-bottom:1px solid #b7b7b8;}
+        .qgzwfwzmh20180530 p a{color:#888888;}
+        
+
+
+互动
+  |  答题国务院大事我知道
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+我要留言
+
+留言选登
+
+
+
+
+
+
+国务院大事我知道2018年第11期
+
+
+                            2018年10月哪些政府工作是你关心的？来参与趣味小测试测一测吧！>>>
+
+ 
+  
+
+
+
+
+国务院大事我知道2018年第10期
+
+
+                            2018年9月哪些政府工作是你关心的？来参与趣味小测试测一测吧！>>>
+
+ 
+  
+
+
+
+
+
+
+回应关切
+
+
+
+税务总局：严格按5000元费用减除标准扣税
+
+
+                          扣缴义务人错选税款所属月份导致未享受减除费用，可申请退税。>>>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+部长之声发布会
+ 
+知识产权局：放宽专利代理行业准入
+
+
+新闻办介绍《反垄断法》实施十周年情况
+新闻办召开新闻发布会介绍2018年10月份国民经济运行情况
+海关总署：今年我国进出口整体通关时间将分别压缩至65小时、8.2小时
+人社部解读前三季度就业、社会保障等数据
+新闻办举行发布会介绍银行业和保险业服务民营、小微企业有关情况
+
+
+
+
+
+
+督查
+
+
+
+
+生态环境部通报2018-2019年蓝天保卫战重点区域强化监督检查情况
+第二批中央生态环境保护督察“回头看”全部实现督察进驻
+水利部召开河湖执法督查工作推进会
+生态环境部通报2018-2019年蓝天保卫战重点区域强化监督重污染天气应对检查情况
+第二批中央生态环境保护督察“回头看”近日将全面启动
+
+
+
+
+
+
+
+
+
+$(function(){
+  var weather_box_small = $("#weather_box_small");
+  $.ajax({  
+        type: "GET",  
+        async: true,  
+        url: "http://bmfw.www.gov.cn/ZFW-AccessPlatform/front/weather/observe_ky.do?callback=?",
+        data:{},
+        dataType: "jsonp",  
+        //jsonp: "callback",//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback)   
+        success: function (data) { 
+          if(weather_box_small.length > 0){
+          var html_2 = "<div style='width:110px;height:25px;position:relative;'>"
+                  +"<img style='float: left;width:25px;height:25px;' src='http://bmfw.www.gov.cn"+data.weatherPicture_small+"'>"
+                +"<p style='margin:0;display: block;font-size: 16px;float: left;height: 25px;line-height: 25px;font-family: Microsoft YaHei;margin-left: 7px;'>"+data.temperature+"℃ "+data.city+"</p>"
+                +"</div>";
+          $("#weather_box_small").html(html_2);
+        }  
+        },  
+        error: function (XMLHttpRequest, textStatus, errorThrown) {  
+          
+        }  
+    });  
+});
+
+
+
+
+
+
+服务
+
+
+
+全国政务服务总门户
+
+
+
+
+
+
+
+
+
+热词：
+
+
+
+
+      $(function(){
+       $('#q').on('focus',function () {
+           $(this).css("color","#000");
+          if($(this).val()=='请输入你想找的服务'){
+        
+            $(this).val('');
+          
+            
+        }
+       });
+      $("#pc_submit").click(function(){
+          var q=$("#q").val();
+          var category=$(".zhetie h3 a.on").attr("name");
+          var search_url="http://search.www.gov.cn/search/fw/cateSearch.do?webid=1&category="+category+"&q="+encodeURIComponent(q);
+          if(q == '请输入你想找的服务'){
+            q = '';
+          }
+          if(category==""||category==null){
+            search_url="http://search.www.gov.cn/search/fw/search.do?webid=1&q="+encodeURIComponent(q);
+
+          }
+          window.open(search_url,"_blank")
+        })
+      $(".pc_search #q").keydown(function(){
+          if(event.keyCode == "13"){
+            $("#pc_submit").click();
+          }
+        })
+        $.ajax({
+            type: "get",
+            url: "http://search.www.gov.cn/search/search/plugin/wordranklist.do?size=4&webid=1",
+            async: true,
+            dataType:'jsonp',
+            crossDomain: true,
+            success: function(response) {
+              var html = '';
+              var count = 0;
+              $.each(eval(response),function(index,value){
+                html += "<a target='_blank' href='http://search.www.gov.cn/search/fw/search.do?webid=1&q="+encodeURI(value)+"'>"+value+"</a>";
+                count++;
+              });
+              $('.a').append(html);
+            }
+          });
+        
+      })
+      
+    
+
+
+2018年部分节假日安排 | 图解
+国务院本周提醒
+国务院@你，本周6件民生大事
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+走失人口查询[天津]
+
+
+
+
+
+
+
+ 
+
+
+
+户籍办理进度查询[吉林]
+
+
+
+
+
+
+
+推荐主题
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+1
+2
+3
+
+
+
+
+最新应用
+
+
+ 
+
+                [天津]
+              
+              走失人口查询
+            
+
+
+
+ 
+
+                [北京]
+              
+              居住证办理网点查询
+            
+
+
+
+ 
+
+                [天津]
+              
+              机动车违法查询
+            
+
+
+
+ 
+
+                [广东]
+              
+              国家职业资格证书查询
+            
+
+
+
+
+
+
+数据
+
+
+10月份全国城镇调查失业率为4.9% 与上月持平
+10月份规模以上工业增加值同比实际增长5.9%
+10月份高技术制造业增加值同比增长12.4%
+
+
+
+数据查询与下载
+
+GDP
+CPI
+PPI 
+粮食产量 
+工业生产增长速度
+总人口
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(function(){
+  $('.date_picker').date_input();
+  })
+
+
+
+
+
+
+$(function(){   
+    /*focus*/
+    var sliderElement = $('.slider-carousel');
+    sliderElement.slidesjs({
+        play: {
+            auto: true,
+            effect: 'fade'
+        },
+        navigation: {
+            effect: "fade"
+        },
+        pagination: {
+            effect: "fade"
+        },
+        effect: {
+            slide: {
+                speed: 400
+            }
+        }
+    });
+    var slidernav = sliderElement.find('.slidesjs-navigation');
+    sliderElement.hover(function() {
+        slidernav.stop().show()
+    },function() {
+        slidernav.stop().hide()
+    });
+  
+  slidernav.hover(function(){
+    $(this).show();
+  }),function(){
+    $(this).show();
+  }
+  
+
+    $(".flexslider").each(function(){
+        $(this).hover(function(){
+            $(this).find(".flex-direction-nav").fadeIn("slow")
+        },function(){
+            $(this).find(".flex-direction-nav").hide()
+        })
+    })
+});
+
+
+
+  ;(function ($) {
+    
+      /*$('.left_right_sroll_father').slideshow({
+            bigImgScroll_list:'.left_right_sroll',
+            bigImgScroll_btn:'.bigImgScroll_btn',
+            bigImgScroll_listItem_margin:0,
+            scrollTime:500,
+            isAuto:false,
+            isFloat:true
+      });*/
+      
+        var $box_0001_width=$('.left_right_sroll .box_0001').outerWidth(true);
+    
+        
+        var $box_0001_length=$('.left_right_sroll .box_0001').length;
+        
+        $('.left_right_sroll').width($box_0001_width*$box_0001_length);
+        
+  })(jQuery);
+
+
+
+      jQuery(function(){
+      if (!$('#hdPic')[0]) 
+      return;
+      var i = 0, p = $('#hdPic ul'), pList = $('#hdPic ul li'), len = pList.length;
+      var elePrev = $('#prev'), eleNext = $('#next');
+      //var firstClick = false;
+      var w = 100, num = 3;
+      p.css('width',w*len);
+      if (len <= num) 
+      eleNext.addClass('gray');
+      function prev(){
+      if (elePrev.hasClass('gray')) {
+        
+      //alert('已经是第一张了');
+      return;
+      }
+      p.animate({
+      marginTop:-(--i) * w
+      },500);
+      if (i < len - num) {
+      eleNext.removeClass('gray');
+
+      }
+      if (i == 0) {
+      elePrev.addClass('gray');
+    
+      }
+      }
+      function next(){
+      if (eleNext.hasClass('gray')) {
+        
+      //alert('已经是最后一张了');
+
+      return;
+      }
+      //p.css('margin-left',-(++i) * w);
+      p.animate({
+      marginTop:-(++i) * w
+      },500);
+      if (i != 0) {
+      elePrev.removeClass('gray');
+      }
+      if (i == len - num) {
+      eleNext.addClass('gray');
+      }
+      }
+      elePrev.bind('click',prev);
+      eleNext.bind('click',next);
+      pList.each(function(n,v){
+      $(this).click(function(){
+      if(n-i == 2){
+      next();
+      }
+      if(n-i == 0){
+      prev()
+      }
+      $('#hdPic ul li.cur').removeClass('cur');
+      $(this).addClass('cur');
+      show(n);
+      }).mouseover(function(){
+      $(this).addClass('hover');
+      }).mouseout(function(){
+      $(this).removeClass('hover');
+      })
+      });
+      
+      });
+
+
+
+    jQuery(".two_fwzt_slide").slide({
+        mainCell: ".bd ul",
+        autoPlay: true,
+        delayTime:2000,
+        triggerTime:500,
+        interTime:5000
+      });
+
+
+  
+
+
+
+
+  function getRootPath(){
+      //获取当前网址，
+      var curPath=window.document.location.href;
+      //获取主机地址之后的目录，
+      var pathName=window.document.location.pathname;
+      var pos=curPath.indexOf(pathName);
+      //获取主机地址
+      var localhostPaht=curPath.substring(0,pos);
+      //获取带"/"的项目名，
+      var projectName=pathName.substring(0,pathName.substr(1).indexOf('/')+1);
+      return(localhostPaht+projectName);
+  }
+   function GetQueryString(name)
+  {
+       var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+       var r = decodeURI(window.location.search).substr(1).match(reg);
+       if(r!=null)return  r[2]; return null;
+  }
+  var servicecode = GetQueryString("servicecode");
+  var gourl = document.referrer;
+  var time = GetQueryString("time");
+  var sign = GetQueryString("sign");
+  var showname = GetQueryString("showname");
+  var ip = getRootPath();
+  /* if(servicecode==null||servicecode==""||time==null||time==""||sign==null||sign==""){
+    servicecode = "idm";
+    time = "20171010121212";
+    sign = "7c4b1d93fa33e1fe51ba119bea0a56aa";
+  } */
+  if(servicecode==null||servicecode==""||time==null||time==""||sign==null||sign==""){
+    servicecode = "zfw";
+    time = "20171010121212";
+    sign = "18403a6fefb59a54620a22e3609fe213";
+  }
+  idm.config({
+    debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert
+    url:'https://user.www.gov.cn/',   // 必填，idm地址
+      servicecode: servicecode,         // 必填，接入代码
+      time: time,
+    sign: sign, // 必填，签名
+    success:function(){ // 回调函数（成功）
+      islogin();
+    },
+    fail:function(r)  { // 回调函数(失败)
+      $(".nologin").removeClass("hide");
+    }
+  });  
+  
+  
+   
+   $(function(){
+    /*  if(showname!=null&&showname!=""&&showname.length>0){
+      //注意 这个脱敏手机号进行了修改 页面上显示只能达到八个字符
+      if(showname.length==11){
+        showname = showname.replace('****','*');
+      }else{
+        showname = "  "+showname;
+      }
+      $("#showname").html(showname);
+      $(".yeslogin").removeClass("hide");
+      $(".nologin").addClass("hide");
+     } */
+     
+     
+    //注册页面
+    $('#userreg').click(function(){
+      idm.user.openreg ({
+        redirect:true,
+        gourl: gourl,// 业务地址：非必填。回调总入口将以sp参数返回
+        extargs: ''   // 扩展参数：非必填。回调将回传
+      });
+    })
+    //登录页面
+    $('#userlogin').click(function(){
+      idm.user.openlogin ({
+        redirect:true,
+        gourl: gourl,// 业务地址：非必填。回调总入口将以sp参数返回
+        extargs: ''   // 扩展参数：非必填。回调将回传
+      });
+    })
+    
+    //个人中心
+    $('#usercenter').click(function(){
+       idm.user.openedit ({
+          gourl: gourl  // 票据：非必填。
+      }); 
+    })
+      //退出登录
+    $("#logout").click(function(){
+      
+      /* $.post(logoutUrl,function(){
+        location.reload();
+      }); */
+       idm.user.logout({
+        success:function(){ // 回调函数（成功）
+          if(gourl!=null&&gourl!=""){
+            window.location.href = gourl;
+          }else{
+            window.location.href = "https://user.www.gov.cn/";
+          }
+          
+        },
+        fail:function(r)  { // 回调函数(失败)
+          
+        }
+      }) 
+    })
+  })
+   
+    
+  
+  function islogin(){
+    idm.user.islogin ({
+    success:function(r){  // 回调函数（成功）
+      var showname = r.showname;
+      if(showname==undefined){
+        showname = "****";
+      }
+      //注意 这个脱敏手机号进行了修改 页面上显示只能达到八个字符
+      if(showname.length==11){
+        showname = showname.replace('****','*');
+      }else{
+        showname = "  "+showname;
+      }
+      $("#showname").html(showname);
+      $(".yeslogin").removeClass("hide");
+      $(".nologin").addClass("hide");
+    },
+    fail:function(r)  { // 回调函数(失败)
+      $(".nologin").removeClass("hide");
+      $(".yeslogin").addClass("hide");
+    }
+    });
+  } 
+
+
+$("#js-rotating3").Morphext({
+  animation: "lightSpeedIn"
+});
+
+
+
+  ;(function ($) {
+    
+    $('.dys_fudong').hover(
+      function () {
+        $(this).animate({
+          top:-5
+        });
+      },
+      function () {
+        $(this).animate({
+          top:0
+        });
+      }
+    );
+    
+    
+  })(jQuery);
+
+
+
+  (function ($) {
+      var $fuwulenght=$('.two_yyphb_box li').length;
+      
+      switch ($fuwulenght){
+        case 1:$('.two_yyphb_box li').eq(0).css('border-bottom', 'none');
+          break;
+        case 2:
+          $('.two_yyphb_box li').eq(1).css('border-bottom', 'none');
+          
+          break;
+        case 3:
+          $('.two_yyphb_box li').eq(2).css('border-bottom', 'none');
+          
+          break;
+        default:
+          break;
+      }
+  })(jQuery);
+
+
+
+
+      /*滚动插件slider*/
+      /*调用$().slider({})*/
+      ;(function ($) {
+        $('.box20180503').slider({
+          //显示的子元素个数
+          showNum:1,
+          //滚动的个数
+          scrollNum:1,
+          //子元素间隔
+          scrollItemSpacing:1,
+          //是否自动滚动
+          isAuto:false,
+          //滚动的容器
+          sliderContainer:'.two_rmfl_box',
+          //幻灯片导航
+          sliderNav:'.hot_title_nav20180517',
+          //滚动间隔时间
+          scrollTime:1000
+       
+        });
+        
+      })(jQuery);
+      
+    
+
+document.write(unescape("%3Cscript src='http://stat.www.gov.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));
+wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")
+
+
+(function() {
+    var N = 100;
+    var P = 0.9;
+    var R = N * P;
+    var X = Math.floor(Math.random() * N);
+    if (R >= X) {
+        _atrk_opts = {
+            atrk_acct: "noGfn1aMp4107i",
+            domain: "www.gov.cn",
+            dynamic: true
+        }; 
+        (function() {
+            var as = document.createElement("script");
+            as.type = "text/javascript";
+            as.async = true;
+            as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js";
+            var s = document.getElementsByTagName("script")[0];
+            var ns = document.createElement("noscript");
+            var img = document.createElement("img");
+            img.src ="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=noGfn1aMp4107i";
+            img.style="display:none";
+            img.height = 1;
+            img.width = 1;
+            img.alt = "";
+            s.parentNode.insertBefore(as, s);
+            s.parentNode.insertBefore(ns, s);
+            var nso = document.getElementsByTagName("noscript")[0];
+            nso.appendChild(img);
+        })();
+    }
+})();
+
+
+
+
+
+
+中国政府网_中央人民政府门户网站
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hd_lb{width:295px;height:370px;  position:relative;}
+#hd{}
+.look-talk{
+  width:310px;
+}
+.column3mi5 ul{
+  padding-top:0px;}
+.cxlist li{
+  float: left;
+  width: 98px;
+  height: 115px;
+  margin: 0px 6px;
+  list-style: none;
+}
+.column3ri{width:249px; background:#dcdcdd; float:right; padding:0 13px 7px;}
+.column3ri3{margin-bottom:2px;}
+.column3ri3 ul{margin-top:0px;}
+.cxlist li img{
+  width:64px;
+  height:64px;
+  margin:10px 20px;
+}
+.cxlist li a{
+  display: block;
+  text-align:center;
+  height:auto;
+  line-height:17px;
+  padding-left:0px;
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+}
+.cxlist li a:hover{
+  background:none;
+  height:auto;  
+  color: #000;
+  }
+.h90{height:117px; overflow:hidden;}
+.h125{margin-top:3px;height:125px; overflow:hidden;}
+ul.h90{margin-top:10px; margin-bottom:15px;}
+ul.h90 li{ font-size:15px; line-height:24px;font-family:"微软雅黑","宋体";background:url(/govweb/xhtml/2016gov/images/public/icon_10.jpg) no-repeat 0 13px; padding-left:10px;}
+ul.h90 a{color:#000;}
+ul.h90 li a:hover{color:#025194;}
+.lmtit a.a_line {
+    background: url(/govweb/xhtml/2016gov/images/public/line.jpg) no-repeat right;
+    padding-right: 15px;
+    margin-right: 12px;
+    float: left;
+}
+.sth .lmtit img{ position: relative;top:3px;}
+.column3ri{width:249px; background:#dcdcdd; float:right; padding:0 13px 10px;}
+.column3ri1{ margin-bottom:0px; padding-top:20px;}
+ul.h57{ margin-bottom:0px; margin-top:0px;}
+.mb30{ margin-bottom:30px;}
+.column3ri1 .lmtit{border-bottom:1px solid #bababa;}
+
+
+/*推荐主题*/
+.box20180503{
+  position: relative;
+  height: 97px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+.two_rmfl_box{
+  position: absolute;
+  left: 0;
+  top: 0;
+  
+}
+.two_rmfl_box li{
+  float: left;
+  width: 249px;
+  height: 97px;
+}
+.hot_title_nav20180517{
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  
+}
+.hot_title_nav20180517 a{
+  float: left;
+  width: 17px;
+  height: 15px;
+  background: #0074bf;
+  text-align: center;
+  line-height: 15px;
+  margin-right: 1px;
+  color: #fff;
+  font-family: "microsoft yahei";
+  font-size: 12px;
+}
+.hot_title_nav20180517 a.active{
+  background: #ffba34;
+}
+/*热门应用*/
+
+.tit{height: 36px;line-height: 36px;border-bottom: 1px solid #bababa;}
+.tit span{float: left;color: #000000;font-size: 20px;font-family:"FZZHUNYSK","微软雅黑","宋体";border-bottom: 2px solid #015293;position: relative;top: -1px;}
+.tit span a{color: #000000;font-size: 20px;font-family:"FZZHUNYSK","微软雅黑","宋体";}
+.tit.yyphb a{ display:inline-block; float:left;font-size: 16px;color: #999999;margin: 0 9px;font-family:"微软雅黑"; cursor:pointer;}
+.tit.yyphb b{border-right: 1px solid #999999;}
+ul.two_yyphb_box{margin: 10px 0 10px;
+    height: 251px;
+  *+height: 255px;
+    overflow: hidden;
+  border-radius:5px;
+  background-color:#fff;
+  border:1px solid ##cfcfd0;
+}
+
+@-moz-document url-prefix() {
+    ul.two_yyphb_box{
+      height: 255px;
+    }
+}
+ul.two_yyphb_box li {
+  height:42px;
+  overflow:hidden;
+    margin: 0px 10px;
+    padding: 6px 0;
+    border-bottom: 1px solid #bfbfbf;
+    position: relative;
+}
+ul.two_yyphb_box li .num{float: left;width: 20px;height: 20px;line-height: 20px;text-align: center;color: #fff;background: #959595;border-radius: 2px;margin: 20px 15px 0 10px;}
+ul.two_yyphb_box li .pic{float: left;margin-right:10px; position:relative;*+margin-top:-3px;}
+ul.two_yyphb_box li .txt p a.h_tit{color: #000;font-size: 15px; font-family: "微软雅黑","宋体";line-height: 22px; font-weight:normal;}
+ul.two_yyphb_box li .txt p a{font-size: 14px;font-weight: inherit;}
+ul.two_yyphb_box li .txt h3 span a{color: #0078d7;font-size: 16px;}
+ul.two_yyphb_box li .txt p{height: auto;overflow: hidden;}
+ul.two_yyphb_box li .txt p span{float: left; margin-right:10px;font-size: 14px;height: 18px;border: 1px solid #999999;text-align: center;line-height: 16px;color: #020202;border-radius: 5px;padding:0 3px;}
+ul.two_yyphb_box li .txt p b a{color: #666666;font-size: 14px; font-family:"微软雅黑"; font-weight:normal;}
+ul.two_yyphb_box li .txt p b{color: #666666;font-size: 14px; font-family:"微软雅黑"; font-weight:normal; cursor:pointer;}
+.yyphb span {border-bottom: 0;}
+.yyphb span.on {border-bottom: 2px solid #015293;}
+.yyphb a.on {color: #000;
+border-bottom: 2px solid #015293;
+}
+/*应用排行新加样式*/
+.two_yyphb_box li .pic .yd_ewm{position: absolute;
+
+    top: -20px;
+    display: none;
+    left: -35px;
+    z-index: 9999;    border: 5px solid #fff;}
+.two_yyphb_box li .yyph_ewm_ct{    position: absolute;
+    bottom: 33px;
+    z-index: 99999;
+    left: 45px;
+    display: none;
+    }
+
+            
+/*最新应用*/
+.two_zxyy_box{height: auto;overflow: hidden;margin-top:15px;}
+.two_zxyy_box a{float: left;width:120px; height:136px;text-align: center;font-size:14px;margin:0px 2px 5px 2px;font-family:"微软雅黑";}
+.two_zxyy_box a img{display: block;margin: 0 auto 5px;}
+.two_zxyy_box a span{display: block;line-height: 22px;color: #000000;}
+.two_zxyy_box a b{font-weight: normal;color: #0078d7;letter-spacing: -0.02em;overflow:hidden; font-family:"微软雅黑";}
+.zx_pop{position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.701961);
+    display: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-style: normal;
+    padding-top: 120px;
+    box-sizing: border-box;
+    font-family: 微软雅黑;}
+ .two_zxyy_box a img.ewm_ct{    position: absolute;
+    left: 65px;
+    top: 47px;
+    z-index: 9999;display: none;}
+/*检索开始*/
+.ser_search{width:257px;margin: 0 auto 10px;height: auto;overflow: hidden;}
+.ser_search .left{width: 250px;}
+.ser_search .left .zhetie ul{ z-index:9999;background: #fff;position: absolute;width: 79px;border: 1px solid #005393;box-sizing: border-box;display: none;}
+.ser_search .left .zhetie ul li{box-sizing: border-box;padding: 0.3rem 0 0.3rem 0.5rem;font-size:14px;border-bottom: 1px dashed #005393;}
+.ser_search .left .zhetie h3{width:79px;height:25px;overflow: hidden; margin-bottom:1px; background-color:#015293; color:#fff; font-size:14px; line-height:25px; text-align:center; cursor:pointer;}
+.ser_search .zhetie .left h3 a{float: left;color: #1b1b1b;padding: 0 7px;height: 30px;line-height: 30px;margin-right: 15px; font-size:14px;}
+.ser_search .zhetie .left h3 a.on{color: #fff;background: #015293;}
+.ser_search .left div{height: auto;overflow: hidden;border: 1px solid #015293;background: url(http://103.66.33.30/images/8/fw_2.jpg) no-repeat 190px center #015293;   -moz-border-radius:5px; /* Firefox */
+  -webkit-border-radius:5px; /* Safari 和 Chrome */
+  border-radius:5px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */}
+.ser_search .left div input[type=text]{    width: 180px;
+    float: left;
+    height: 18px;
+    border: 0;
+    padding: 5px 5px;}
+.ser_search .left div input[type=button]{float: right;width: 56px;height: 26px;border: 0;background: none;cursor: pointer;}
+.ser_search .left p{color: #333333;position: relative; margin-top:5px;}
+.ser_search .left p a{color: #333333;font-size: 12px;font-family: "宋体";padding-right: 10px;}
+.ser_search .left p b{font-weight: normal;font-size: 12px;font-family: "宋体";}
+.ser_search .left p .more{position: absolute;right: 0;color: #878787;font-size: 12px;font-family: "宋体";padding: 0;top: 4px;}
+.ser_search .right{margin-top: 20px;}
+.right{float: right;}
+.column3ri1_2{ background:none;}
+.mb15{ margin-bottom:15px;}
+.mb22{ margin-bottom:22px;} 
+.two_fwzt_slide{margin-top: 20px;position: relative;}
+.two_fwzt_slide .prev{width: 6px;height: 55px;background: url(/govweb/xhtml/2016gov/public/pic20181229/larrow.png) no-repeat center;display: block;position: absolute;left: -2px;top: 0;}
+.two_fwzt_slide .next{width: 6px;height: 55px;background:url(/govweb/xhtml/2016gov/public/pic20181229/rarrow.png) no-repeat center;display: block;position: absolute;right: -2px;top: 0;}
+.two_fwzt_slide .bd{width:229px;margin: 0 auto 10px;overflow: hidden;}
+ul.sjcx{clear:both;list-style:none; margin-top:15px;}
+ul.sjcx li{ float:left;margin:0px 3px 0px 3px; list-style:none;}
+ul.sjcx li a{color:#0078d7; font-size:16px;}
+.column3ri2{padding-top:5px;}
+.column3ri2_1{height:100px;}
+.column3ri2_1 ul li{ background:none;}
+.column3ri2_2 li{line-height:23px;}
+.dys_mb15{
+  
+}
+.column3mi6 li{line-height: 24px; }
+
+.logoLianghui{position: absolute;width:512px;height:62px;background:url(/govweb/xhtml/zhuanti/2018lhzfgzbg/images/logoLianghui.png) no-repeat;left:50%;margin-left:49px;top:13px;z-index: 3;}
+.cloud{position: absolute; width:100%;height:100%;*height:1226px;top:0px;right:0px; background:url(/govweb/xhtml/zhuanti/2018lhzfgzbg/images/cloud.png) no-repeat top center;-webkit-background-size:cover;
+background-size:cover;background-size:100% 100%\9;*background-size:100% 100%;z-index:-2;}
+.cloud2{opacity:0.4;right:0px;background-position:0 50% }
+.closeBg{position:absolute;width:28px;height:45px;top:7px;right:0px;z-index:999;cursor: pointer;
+}
+
+/*服务右侧全国政务服务总门户*/
+.qgzwfwzmh20180530{
+  float: right;
+  font-family: "微软雅黑","宋体";
+  font-size: 14px;
+  display: block;
+  line-height: 30px;
+  color: #888888;
+  font-weight: lighter;
+}
+
+
+.header_right{width:310px; margin-right:37px;}
+.search{ width:300px; height:22px; position:relative;}
+.search_mi{ width:263px; height:22px; line-height:22px; border:none; position:absolute; left:0; padding-left:14px; padding-right:23px;background:url(/govweb/xhtml/2016gov/images/public/sousuok.png) no-repeat; }
+
+
+
+.yeslogin ul,li{
+    list-style-type:none;   
+    padding:0;    
+    margin:0;   
+}   
+.yeslogin{
+  position:relative;
+  z-index:100;
+}
+.yeslogin ul li{
+  float:none; 
+  line-height: 34px;
+  margin-left: 15px;
+  width: 50px;
+} 
+.yeslogin ul li a{
+  color:#7B7B7B; 
+}
+.usercenter{
+  margin-top:10px;
+  border-bottom: 1px solid #F0F0F0;
+} 
+.yeslogin ul{
+    top:20px;
+    left:-20px;
+    position:absolute;  
+    display:none;
+    width:80px;
+    background-image: url("https://user.www.gov.cn/static/images/outborder.png");
+}   
+.yeslogin:hover ul{   
+  display:block;    
+} 
+.morphext > .animated {
+  display: inline-block;
+}
+
+.dys_fudong{
+  position: relative;
+  float: left;
+  width: 60px;
+}
+
+.dys_fudong span{
+  padding: 0;
+}
+.column3mi2 .lmtit {
+    height:28px;
+    margin-bottom: 10px;
+} 
+.two_fwzt_slide .bd{
+  height:56px;
+}
+.dyschangemt18{
+  margin-top: 18px;
+}
+.lmtit.jdmd.changedys20180330height{
+  height: 25px;
+}
+.column3lp_1 span{
+    float: right;
+    font-family: "微软雅黑","宋体";
+    font-size: 14px;
+    display: block;
+    line-height: 30px;
+}
+.column3lp_1 .lmtit span a {
+    float: right;
+    font-family: "微软雅黑","宋体";
+    font-size: 14px;
+    display: block;
+    line-height: 30px;
+    color: #888888;
+    font-weight: lighter;
+}
+.column3lp_1 .lmtit span a:hover{
+  color: #566a9d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+简
+|
+繁
+|
+EN
+|
+
+
+
+
+个人中心
+退出
+
+
+注册
+|
+登录
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+国务院
+
+总　　理李克强
+
+
+常务会议
+（
+视窗
+
+解读
+）
+
+
+副总理韩正孙春兰（女）胡春华刘鹤
+全体会议
+国务委员魏凤和王勇王毅肖捷赵克志
+秘 书 长肖捷（兼）
+组织机构
+
+
+
+总理
+
+最新
+讲话
+文章
+音频
+视频
+图片库
+媒体报道
+专题
+总理说
+
+
+新闻
+
+要闻
+专题
+政务联播
+新闻发布
+人事
+图片
+滚动
+
+
+政策
+
+最新
+文件库
+解读
+法律法规
+公报
+双创
+
+
+互动
+
+督查
+我向总理说句话
+高端访谈
+文津圆桌
+政策法规意见征集
+
+
+
+服务
+
+便民服务
+部门地方大厅
+政府权责清单
+服务搜索
+服务专题
+
+
+数据
+
+数据查询 
+数据快递
+数据要闻
+商品价格
+
+
+国情
+
+国旗
+国歌
+国徽 
+行政区划
+
+
+
+
+
+
+
+
+
+function j2gb(url)
+{
+  if(location.hostname="big5.gov.cn")
+  {
+      location.href="ht"+"tp://"+"www.gov.cn";
+      return false;
+  }
+else
+  {
+return false;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+习近平抵达斯里巴加湾开始对文莱达鲁萨兰国进行国事访问
+
+
+习近平：将中文睦邻友好关系提升到新高度 | 在文莱媒体发表署名文章 引热烈反响
+
+
+
+
+
+
+
+
+  
+ 
+
+习近平抵达斯里巴加湾开始对文莱达鲁萨兰国进行国事访问
+
+
+
+  
+ 
+
+李克强新加坡之行：以自贸区升级维护多边主义和自由贸易
+
+
+
+  
+ 
+
+我国成功发射第四十二、四十三颗北斗导航卫星
+
+
+
+  
+ 
+
+首届联合国世界地理信息大会技术与应用展览在华开幕
+
+
+
+  
+ 
+
+冬日动起来！
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+国务院国务院常务会议
+
+
+李克强新加坡之行：以自贸区升级维护多边主义和自由贸易 | 专题
+
+
+李克强总理出访这4个细节你注意到了吗？
+
+
+图集：《新加坡随想曲》中回顾李克强出席东亚合作领导人系列会 | 南洋旋律伴奏首次访新
+
+
+税务总局：个税改革将带来征管模式转变
+
+
+负面清单“由外及内” 外商投资改革“自浅入深”
+
+
+报告显示：我国碳排放增速逐渐降低
+
+
+
+
+
+
+专题
+
+
+
+李克强总理亚欧之行 | “1+6”圆桌对话会
+
+
+聚焦“互联网+政务服务” | 政务公开交流
+
+
+
+
+
+
+视 听 画 
+
+
+
+
+ 
+
+
+李克强新加坡之行，这4个细节你注意到了吗
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#audio_box{ position:relative; width:99px;height:243px;overflow:hidden; background:#d3d3d3; margin-top:18px;float:left;}
+.audiojs{ position:absolute; right:0px; top:2px; box-shadow:none; width:99px;height:241px; background:#ccc;}
+#audio_box .audio_list{ position:absolute; left:0px; bottom:40px; height:0px; overflow:hidden; z-index:99;background: rgba(0,0,0,0.6); width:100%; right:0px;}
+#audio_box .time em{ color:#858585;font-style:normal;}
+#audio_box .time{display: block; font-size:12px;_font-size:12px; border-left:none; color:#858585;text-shadow:none;margin:0;padding:0 0 0 3%; width:94%; height:36px;overflow:hidden;text-align: center;}
+#audio_box .duration{}
+.audiojs .progress{ background:#A2D101;}
+.audiojs .play-pause{width:87px;height:132px;}
+.audiojs .play-pause{ border-right:none;}
+.audiojs .loaded,.audiojs .scrubber{ width:470px; display:none;}
+.audiojs .pause,.audiojs .play{background:url(/govweb/xhtml/2016gov/images/public/icon_18.gif) no-repeat 0 0; width:61px; height:61px;margin-left:12px; margin-top:72px;}
+div.playing .play{ background-image:url(/govweb/xhtml/2016gov/images/public/icon_18_click.gif)}
+.spyp_main{ position:relative; height:318px;}
+.spyp_main .spyp_con{ position:absolute; left:0px; top:0px;}
+    
+        var a = audiojs.createAll({
+        trackEnded: function() {
+        var next = $('ol li.playing').next();
+        if (!next.length) next = $('ol li').first();
+        next.addClass('playing').siblings().removeClass('playing');
+        audio.load($('a', next).attr('data-src'));
+        //audio.play();
+        }
+      });
+      var audio = a[0];
+        first = $('ol a').attr('data-src');
+      $('ol li').first().addClass('playing');
+      audio.load(first);
+      $('ol li').click(function(e) {
+        e.preventDefault();
+        $(this).addClass('playing').siblings().removeClass('playing');
+        audio.load($('a', this).attr('data-src'));
+        audio.play();
+      });
+      $('#audio_box .next').click(function(){var next = $('li.playing').next();
+        if (!next.length) next = $('ol li').first();
+        next.click();})
+      $('#audio_box .prev').click(function(){var prev = $('li.playing').prev();
+        if (!prev.length) prev = $('ol li').last();
+        prev.click();})
+      $(document).keydown(function(e) {
+        var unicode = e.charCode ? e.charCode : e.keyCode;
+        if (unicode == 39) {
+        $('#audio_box .next').click()
+        } else if (unicode == 37) {
+        $('#audio_box .next').click()
+        }
+      })
+      $('.close_audio').click(function(){
+        startMove(document.getElementById('audio_list'), {
+          height:0
+        },
+        1e3, "bounceOut",function(){
+          $('#audio_box').fadeOut();
+          $('.open_music').fadeIn()
+        })
+      })
+      var audio_list=$('#audio_list');
+      $('.open_music').click(function(){
+        $(this).hide();
+        $('#audio_box').fadeIn(300,function(){
+          startMove(audio_list[0], {
+            height:audio_list.find('li').length*30+60
+          },
+          1e3, "bounceOut")
+        })
+      })
+        
+
+
+李克强结束出访回京
+
+
+
+
+
+ 
+
+
+日历 | 李克强总理出席东亚峰会
+
+
+
+
+
+
+政务联播
+
+【三部门】正式发布电子证照六项国家标准
+【财政部】印发代理记账行业协会管理办法
+【林草局】开展林业安全生产大检查督查
+【甘肃】开展青少年近视调查工作
+【贵州】两次提高城乡居民基础养老金标准
+【广西】多举措降低企业用地成本
+
+
+
+
+
+经典瞬间秒懂国务院　
+
+
+
+
+ 
+李克强参观华为公司“专利墙”（2015-01-04）
+
+
+
+
+
+ 
+秒懂国务院 | “证照分离”，分手快乐！
+
+
+
+
+
+
+
+
+
+政策政府信息公开专栏
+
+
+
+中共中央 国务院关于学前教育深化改革规范发展的若干意见 | 解读（11-15）
+
+国办印发关于调整国务院第二次全国污染源普查领导小组组成人员的通知（11-12）
+
+国办印发《政府网站集约化试点工作方案》（11-09）
+
+消防救援衔标志式样和佩带办法（11-08）
+
+国办印发《关于聚焦企业关切进一步推动优化营商环境政策落实的通知》（11-08）
+
+国办印发《关于调整国务院抗震救灾指挥部组成人员的通知》（11-07）
+
+国务院批复进一步支持杨凌农业高新技术产业示范区发展若干政策（11-05）
+
+
+
+
+
+
+文件库
+国务院公报
+
+
+
+
+
+
+全部
+过去一周
+过去一月
+
+
+
+至
+
+
+高级搜索
+
+
+
+        $(function(){
+          $("input.searchwj").val("搜索")
+        })
+      
+
+
+
+
+
+
+          a {
+            text-decoration: none;
+          }
+          .con_01 {
+            width: 295px;
+            height: 365px;
+            margin: 0px auto;
+          }
+          .btn_001 {
+            float: left;
+            width: 98px;
+            height:28px;
+            margin: 0px 24px;
+            line-height: 27px;
+            text-align: center;
+            background-image: url('/govweb/xhtml/2016gov/20170512ceshi/images/btn0512.png');
+          }
+          .btn_001 a {
+            color: #fff;
+            font-size: 14px;
+            /*font-weight: bold;*/
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .box_0001 {
+            clear: both;
+            position: relative;
+            width: 281px;
+            height: 109px;
+            margin-bottom: 15px;
+            padding: 12px 5px 5px 5px;
+            border: 1px solid #ccc;
+          }
+          .box_0001 h3 {
+            position: absolute;
+            left: 100px;
+            top: -12px;
+            width: 77px;
+            height: 24px;
+            text-align: center;
+            background-color: #fff;
+          }
+          .box_0001 h3 a {
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 24px;
+            color: #3c3c3c;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+       .left_right_sroll_father{
+            position: relative;
+            height: 143px;
+            width: 293px;
+            overflow: hidden;
+          }
+          .left_right_sroll{
+             position: absolute;
+             left: 0;
+             top: 0;
+          }
+          .left_right_sroll .box_0001{
+            float: left;
+            clear: none;
+          }
+          .wenzi_box {
+            float: left;
+            width: 158px;
+            margin-right: 10px;
+          }
+          .wenzi_box h2{
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 4px;
+            color: #015293;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .wenzi_box h2 a{
+            font-weight: bold;
+            font-size: 15px;
+            color: #015293;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .wenzi_box p {
+            color: #1a1a1a;
+            font-size: 13px;
+            line-height: 20px;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .wenzi_box p a {
+            color: #2ea0fb;
+          }
+          .anniu_box {
+            clear: both;
+            height: 44px;
+          }
+          .r_pic {
+            float: right;
+            width: 105px;
+            height: 105px;
+    
+          }
+          .mb_8 {
+            margin-bottom: 8px;
+          }
+      .column3ri1 .lmtit{
+        border-bottom:1px solid #b7b7b8;}
+        .qgzwfwzmh20180530 p a{color:#888888;}
+        
+
+
+互动
+  |  答题国务院大事我知道
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+我要留言
+
+留言选登
+
+
+
+
+
+
+国务院大事我知道2018年第11期
+
+
+                            2018年10月哪些政府工作是你关心的？来参与趣味小测试测一测吧！>>>
+
+ 
+  
+
+
+
+
+国务院大事我知道2018年第10期
+
+
+                            2018年9月哪些政府工作是你关心的？来参与趣味小测试测一测吧！>>>
+
+ 
+  
+
+
+
+
+
+
+回应关切
+
+
+
+税务总局：严格按5000元费用减除标准扣税
+
+
+                          扣缴义务人错选税款所属月份导致未享受减除费用，可申请退税。>>>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+部长之声发布会
+ 
+知识产权局：放宽专利代理行业准入
+
+
+新闻办介绍《反垄断法》实施十周年情况
+新闻办召开新闻发布会介绍2018年10月份国民经济运行情况
+海关总署：今年我国进出口整体通关时间将分别压缩至65小时、8.2小时
+人社部解读前三季度就业、社会保障等数据
+新闻办举行发布会介绍银行业和保险业服务民营、小微企业有关情况
+
+
+
+
+
+
+督查
+
+
+
+
+生态环境部通报2018-2019年蓝天保卫战重点区域强化监督检查情况
+第二批中央生态环境保护督察“回头看”全部实现督察进驻
+水利部召开河湖执法督查工作推进会
+生态环境部通报2018-2019年蓝天保卫战重点区域强化监督重污染天气应对检查情况
+第二批中央生态环境保护督察“回头看”近日将全面启动
+
+
+
+
+
+
+
+
+
+$(function(){
+  var weather_box_small = $("#weather_box_small");
+  $.ajax({  
+        type: "GET",  
+        async: true,  
+        url: "http://bmfw.www.gov.cn/ZFW-AccessPlatform/front/weather/observe_ky.do?callback=?",
+        data:{},
+        dataType: "jsonp",  
+        //jsonp: "callback",//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback)   
+        success: function (data) { 
+          if(weather_box_small.length > 0){
+          var html_2 = "<div style='width:110px;height:25px;position:relative;'>"
+                  +"<img style='float: left;width:25px;height:25px;' src='http://bmfw.www.gov.cn"+data.weatherPicture_small+"'>"
+                +"<p style='margin:0;display: block;font-size: 16px;float: left;height: 25px;line-height: 25px;font-family: Microsoft YaHei;margin-left: 7px;'>"+data.temperature+"℃ "+data.city+"</p>"
+                +"</div>";
+          $("#weather_box_small").html(html_2);
+        }  
+        },  
+        error: function (XMLHttpRequest, textStatus, errorThrown) {  
+          
+        }  
+    });  
+});
+
+
+
+
+
+
+服务
+
+
+
+全国政务服务总门户
+
+
+
+
+
+
+
+
+
+热词：
+
+
+
+
+      $(function(){
+       $('#q').on('focus',function () {
+           $(this).css("color","#000");
+          if($(this).val()=='请输入你想找的服务'){
+        
+            $(this).val('');
+          
+            
+        }
+       });
+      $("#pc_submit").click(function(){
+          var q=$("#q").val();
+          var category=$(".zhetie h3 a.on").attr("name");
+          var search_url="http://search.www.gov.cn/search/fw/cateSearch.do?webid=1&category="+category+"&q="+encodeURIComponent(q);
+          if(q == '请输入你想找的服务'){
+            q = '';
+          }
+          if(category==""||category==null){
+            search_url="http://search.www.gov.cn/search/fw/search.do?webid=1&q="+encodeURIComponent(q);
+
+          }
+          window.open(search_url,"_blank")
+        })
+      $(".pc_search #q").keydown(function(){
+          if(event.keyCode == "13"){
+            $("#pc_submit").click();
+          }
+        })
+        $.ajax({
+            type: "get",
+            url: "http://search.www.gov.cn/search/search/plugin/wordranklist.do?size=4&webid=1",
+            async: true,
+            dataType:'jsonp',
+            crossDomain: true,
+            success: function(response) {
+              var html = '';
+              var count = 0;
+              $.each(eval(response),function(index,value){
+                html += "<a target='_blank' href='http://search.www.gov.cn/search/fw/search.do?webid=1&q="+encodeURI(value)+"'>"+value+"</a>";
+                count++;
+              });
+              $('.a').append(html);
+            }
+          });
+        
+      })
+      
+    
+
+
+2018年部分节假日安排 | 图解
+国务院本周提醒
+国务院@你，本周6件民生大事
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+走失人口查询[天津]
+
+
+
+
+
+
+
+ 
+
+
+
+户籍办理进度查询[吉林]
+
+
+
+
+
+
+
+推荐主题
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+1
+2
+3
+
+
+
+
+最新应用
+
+
+ 
+
+                [天津]
+              
+              走失人口查询
+            
+
+
+
+ 
+
+                [北京]
+              
+              居住证办理网点查询
+            
+
+
+
+ 
+
+                [天津]
+              
+              机动车违法查询
+            
+
+
+
+ 
+
+                [广东]
+              
+              国家职业资格证书查询
+            
+
+
+
+
+
+
+数据
+
+
+10月份全国城镇调查失业率为4.9% 与上月持平
+10月份规模以上工业增加值同比实际增长5.9%
+10月份高技术制造业增加值同比增长12.4%
+
+
+
+数据查询与下载
+
+GDP
+CPI
+PPI 
+粮食产量 
+工业生产增长速度
+总人口
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(function(){
+  $('.date_picker').date_input();
+  })
+
+
+
+
+
+
+$(function(){   
+    /*focus*/
+    var sliderElement = $('.slider-carousel');
+    sliderElement.slidesjs({
+        play: {
+            auto: true,
+            effect: 'fade'
+        },
+        navigation: {
+            effect: "fade"
+        },
+        pagination: {
+            effect: "fade"
+        },
+        effect: {
+            slide: {
+                speed: 400
+            }
+        }
+    });
+    var slidernav = sliderElement.find('.slidesjs-navigation');
+    sliderElement.hover(function() {
+        slidernav.stop().show()
+    },function() {
+        slidernav.stop().hide()
+    });
+  
+  slidernav.hover(function(){
+    $(this).show();
+  }),function(){
+    $(this).show();
+  }
+  
+
+    $(".flexslider").each(function(){
+        $(this).hover(function(){
+            $(this).find(".flex-direction-nav").fadeIn("slow")
+        },function(){
+            $(this).find(".flex-direction-nav").hide()
+        })
+    })
+});
+
+
+
+  ;(function ($) {
+    
+      /*$('.left_right_sroll_father').slideshow({
+            bigImgScroll_list:'.left_right_sroll',
+            bigImgScroll_btn:'.bigImgScroll_btn',
+            bigImgScroll_listItem_margin:0,
+            scrollTime:500,
+            isAuto:false,
+            isFloat:true
+      });*/
+      
+        var $box_0001_width=$('.left_right_sroll .box_0001').outerWidth(true);
+    
+        
+        var $box_0001_length=$('.left_right_sroll .box_0001').length;
+        
+        $('.left_right_sroll').width($box_0001_width*$box_0001_length);
+        
+  })(jQuery);
+
+
+
+      jQuery(function(){
+      if (!$('#hdPic')[0]) 
+      return;
+      var i = 0, p = $('#hdPic ul'), pList = $('#hdPic ul li'), len = pList.length;
+      var elePrev = $('#prev'), eleNext = $('#next');
+      //var firstClick = false;
+      var w = 100, num = 3;
+      p.css('width',w*len);
+      if (len <= num) 
+      eleNext.addClass('gray');
+      function prev(){
+      if (elePrev.hasClass('gray')) {
+        
+      //alert('已经是第一张了');
+      return;
+      }
+      p.animate({
+      marginTop:-(--i) * w
+      },500);
+      if (i < len - num) {
+      eleNext.removeClass('gray');
+
+      }
+      if (i == 0) {
+      elePrev.addClass('gray');
+    
+      }
+      }
+      function next(){
+      if (eleNext.hasClass('gray')) {
+        
+      //alert('已经是最后一张了');
+
+      return;
+      }
+      //p.css('margin-left',-(++i) * w);
+      p.animate({
+      marginTop:-(++i) * w
+      },500);
+      if (i != 0) {
+      elePrev.removeClass('gray');
+      }
+      if (i == len - num) {
+      eleNext.addClass('gray');
+      }
+      }
+      elePrev.bind('click',prev);
+      eleNext.bind('click',next);
+      pList.each(function(n,v){
+      $(this).click(function(){
+      if(n-i == 2){
+      next();
+      }
+      if(n-i == 0){
+      prev()
+      }
+      $('#hdPic ul li.cur').removeClass('cur');
+      $(this).addClass('cur');
+      show(n);
+      }).mouseover(function(){
+      $(this).addClass('hover');
+      }).mouseout(function(){
+      $(this).removeClass('hover');
+      })
+      });
+      
+      });
+
+
+
+    jQuery(".two_fwzt_slide").slide({
+        mainCell: ".bd ul",
+        autoPlay: true,
+        delayTime:2000,
+        triggerTime:500,
+        interTime:5000
+      });
+
+
+  
+
+
+
+
+  function getRootPath(){
+      //获取当前网址，
+      var curPath=window.document.location.href;
+      //获取主机地址之后的目录，
+      var pathName=window.document.location.pathname;
+      var pos=curPath.indexOf(pathName);
+      //获取主机地址
+      var localhostPaht=curPath.substring(0,pos);
+      //获取带"/"的项目名，
+      var projectName=pathName.substring(0,pathName.substr(1).indexOf('/')+1);
+      return(localhostPaht+projectName);
+  }
+   function GetQueryString(name)
+  {
+       var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+       var r = decodeURI(window.location.search).substr(1).match(reg);
+       if(r!=null)return  r[2]; return null;
+  }
+  var servicecode = GetQueryString("servicecode");
+  var gourl = document.referrer;
+  var time = GetQueryString("time");
+  var sign = GetQueryString("sign");
+  var showname = GetQueryString("showname");
+  var ip = getRootPath();
+  /* if(servicecode==null||servicecode==""||time==null||time==""||sign==null||sign==""){
+    servicecode = "idm";
+    time = "20171010121212";
+    sign = "7c4b1d93fa33e1fe51ba119bea0a56aa";
+  } */
+  if(servicecode==null||servicecode==""||time==null||time==""||sign==null||sign==""){
+    servicecode = "zfw";
+    time = "20171010121212";
+    sign = "18403a6fefb59a54620a22e3609fe213";
+  }
+  idm.config({
+    debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert
+    url:'https://user.www.gov.cn/',   // 必填，idm地址
+      servicecode: servicecode,         // 必填，接入代码
+      time: time,
+    sign: sign, // 必填，签名
+    success:function(){ // 回调函数（成功）
+      islogin();
+    },
+    fail:function(r)  { // 回调函数(失败)
+      $(".nologin").removeClass("hide");
+    }
+  });  
+  
+  
+   
+   $(function(){
+    /*  if(showname!=null&&showname!=""&&showname.length>0){
+      //注意 这个脱敏手机号进行了修改 页面上显示只能达到八个字符
+      if(showname.length==11){
+        showname = showname.replace('****','*');
+      }else{
+        showname = "  "+showname;
+      }
+      $("#showname").html(showname);
+      $(".yeslogin").removeClass("hide");
+      $(".nologin").addClass("hide");
+     } */
+     
+     
+    //注册页面
+    $('#userreg').click(function(){
+      idm.user.openreg ({
+        redirect:true,
+        gourl: gourl,// 业务地址：非必填。回调总入口将以sp参数返回
+        extargs: ''   // 扩展参数：非必填。回调将回传
+      });
+    })
+    //登录页面
+    $('#userlogin').click(function(){
+      idm.user.openlogin ({
+        redirect:true,
+        gourl: gourl,// 业务地址：非必填。回调总入口将以sp参数返回
+        extargs: ''   // 扩展参数：非必填。回调将回传
+      });
+    })
+    
+    //个人中心
+    $('#usercenter').click(function(){
+       idm.user.openedit ({
+          gourl: gourl  // 票据：非必填。
+      }); 
+    })
+      //退出登录
+    $("#logout").click(function(){
+      
+      /* $.post(logoutUrl,function(){
+        location.reload();
+      }); */
+       idm.user.logout({
+        success:function(){ // 回调函数（成功）
+          if(gourl!=null&&gourl!=""){
+            window.location.href = gourl;
+          }else{
+            window.location.href = "https://user.www.gov.cn/";
+          }
+          
+        },
+        fail:function(r)  { // 回调函数(失败)
+          
+        }
+      }) 
+    })
+  })
+   
+    
+  
+  function islogin(){
+    idm.user.islogin ({
+    success:function(r){  // 回调函数（成功）
+      var showname = r.showname;
+      if(showname==undefined){
+        showname = "****";
+      }
+      //注意 这个脱敏手机号进行了修改 页面上显示只能达到八个字符
+      if(showname.length==11){
+        showname = showname.replace('****','*');
+      }else{
+        showname = "  "+showname;
+      }
+      $("#showname").html(showname);
+      $(".yeslogin").removeClass("hide");
+      $(".nologin").addClass("hide");
+    },
+    fail:function(r)  { // 回调函数(失败)
+      $(".nologin").removeClass("hide");
+      $(".yeslogin").addClass("hide");
+    }
+    });
+  } 
+
+
+$("#js-rotating3").Morphext({
+  animation: "lightSpeedIn"
+});
+
+
+
+  ;(function ($) {
+    
+    $('.dys_fudong').hover(
+      function () {
+        $(this).animate({
+          top:-5
+        });
+      },
+      function () {
+        $(this).animate({
+          top:0
+        });
+      }
+    );
+    
+    
+  })(jQuery);
+
+
+
+  (function ($) {
+      var $fuwulenght=$('.two_yyphb_box li').length;
+      
+      switch ($fuwulenght){
+        case 1:$('.two_yyphb_box li').eq(0).css('border-bottom', 'none');
+          break;
+        case 2:
+          $('.two_yyphb_box li').eq(1).css('border-bottom', 'none');
+          
+          break;
+        case 3:
+          $('.two_yyphb_box li').eq(2).css('border-bottom', 'none');
+          
+          break;
+        default:
+          break;
+      }
+  })(jQuery);
+
+
+
+
+      /*滚动插件slider*/
+      /*调用$().slider({})*/
+      ;(function ($) {
+        $('.box20180503').slider({
+          //显示的子元素个数
+          showNum:1,
+          //滚动的个数
+          scrollNum:1,
+          //子元素间隔
+          scrollItemSpacing:1,
+          //是否自动滚动
+          isAuto:false,
+          //滚动的容器
+          sliderContainer:'.two_rmfl_box',
+          //幻灯片导航
+          sliderNav:'.hot_title_nav20180517',
+          //滚动间隔时间
+          scrollTime:1000
+       
+        });
+        
+      })(jQuery);
+      
+    
+
+document.write(unescape("%3Cscript src='http://stat.www.gov.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));
+wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")
+
+
+(function() {
+    var N = 100;
+    var P = 0.9;
+    var R = N * P;
+    var X = Math.floor(Math.random() * N);
+    if (R >= X) {
+        _atrk_opts = {
+            atrk_acct: "noGfn1aMp4107i",
+            domain: "www.gov.cn",
+            dynamic: true
+        }; 
+        (function() {
+            var as = document.createElement("script");
+            as.type = "text/javascript";
+            as.async = true;
+            as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js";
+            var s = document.getElementsByTagName("script")[0];
+            var ns = document.createElement("noscript");
+            var img = document.createElement("img");
+            img.src ="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=noGfn1aMp4107i";
+            img.style="display:none";
+            img.height = 1;
+            img.width = 1;
+            img.alt = "";
+            s.parentNode.insertBefore(as, s);
+            s.parentNode.insertBefore(ns, s);
+            var nso = document.getElementsByTagName("noscript")[0];
+            nso.appendChild(img);
+        })();
+    }
+})();
+
+
+
+
+
+
+中国政府网_中央人民政府门户网站
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hd_lb{width:295px;height:370px;  position:relative;}
+#hd{}
+.look-talk{
+  width:310px;
+}
+.column3mi5 ul{
+  padding-top:0px;}
+.cxlist li{
+  float: left;
+  width: 98px;
+  height: 115px;
+  margin: 0px 6px;
+  list-style: none;
+}
+.column3ri{width:249px; background:#dcdcdd; float:right; padding:0 13px 7px;}
+.column3ri3{margin-bottom:2px;}
+.column3ri3 ul{margin-top:0px;}
+.cxlist li img{
+  width:64px;
+  height:64px;
+  margin:10px 20px;
+}
+.cxlist li a{
+  display: block;
+  text-align:center;
+  height:auto;
+  line-height:17px;
+  padding-left:0px;
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+}
+.cxlist li a:hover{
+  background:none;
+  height:auto;  
+  color: #000;
+  }
+.h90{height:117px; overflow:hidden;}
+.h125{margin-top:3px;height:125px; overflow:hidden;}
+ul.h90{margin-top:10px; margin-bottom:15px;}
+ul.h90 li{ font-size:15px; line-height:24px;font-family:"微软雅黑","宋体";background:url(/govweb/xhtml/2016gov/images/public/icon_10.jpg) no-repeat 0 13px; padding-left:10px;}
+ul.h90 a{color:#000;}
+ul.h90 li a:hover{color:#025194;}
+.lmtit a.a_line {
+    background: url(/govweb/xhtml/2016gov/images/public/line.jpg) no-repeat right;
+    padding-right: 15px;
+    margin-right: 12px;
+    float: left;
+}
+.sth .lmtit img{ position: relative;top:3px;}
+.column3ri{width:249px; background:#dcdcdd; float:right; padding:0 13px 10px;}
+.column3ri1{ margin-bottom:0px; padding-top:20px;}
+ul.h57{ margin-bottom:0px; margin-top:0px;}
+.mb30{ margin-bottom:30px;}
+.column3ri1 .lmtit{border-bottom:1px solid #bababa;}
+
+
+/*推荐主题*/
+.box20180503{
+  position: relative;
+  height: 97px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+.two_rmfl_box{
+  position: absolute;
+  left: 0;
+  top: 0;
+  
+}
+.two_rmfl_box li{
+  float: left;
+  width: 249px;
+  height: 97px;
+}
+.hot_title_nav20180517{
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  
+}
+.hot_title_nav20180517 a{
+  float: left;
+  width: 17px;
+  height: 15px;
+  background: #0074bf;
+  text-align: center;
+  line-height: 15px;
+  margin-right: 1px;
+  color: #fff;
+  font-family: "microsoft yahei";
+  font-size: 12px;
+}
+.hot_title_nav20180517 a.active{
+  background: #ffba34;
+}
+/*热门应用*/
+
+.tit{height: 36px;line-height: 36px;border-bottom: 1px solid #bababa;}
+.tit span{float: left;color: #000000;font-size: 20px;font-family:"FZZHUNYSK","微软雅黑","宋体";border-bottom: 2px solid #015293;position: relative;top: -1px;}
+.tit span a{color: #000000;font-size: 20px;font-family:"FZZHUNYSK","微软雅黑","宋体";}
+.tit.yyphb a{ display:inline-block; float:left;font-size: 16px;color: #999999;margin: 0 9px;font-family:"微软雅黑"; cursor:pointer;}
+.tit.yyphb b{border-right: 1px solid #999999;}
+ul.two_yyphb_box{margin: 10px 0 10px;
+    height: 251px;
+  *+height: 255px;
+    overflow: hidden;
+  border-radius:5px;
+  background-color:#fff;
+  border:1px solid ##cfcfd0;
+}
+
+@-moz-document url-prefix() {
+    ul.two_yyphb_box{
+      height: 255px;
+    }
+}
+ul.two_yyphb_box li {
+  height:42px;
+  overflow:hidden;
+    margin: 0px 10px;
+    padding: 6px 0;
+    border-bottom: 1px solid #bfbfbf;
+    position: relative;
+}
+ul.two_yyphb_box li .num{float: left;width: 20px;height: 20px;line-height: 20px;text-align: center;color: #fff;background: #959595;border-radius: 2px;margin: 20px 15px 0 10px;}
+ul.two_yyphb_box li .pic{float: left;margin-right:10px; position:relative;*+margin-top:-3px;}
+ul.two_yyphb_box li .txt p a.h_tit{color: #000;font-size: 15px; font-family: "微软雅黑","宋体";line-height: 22px; font-weight:normal;}
+ul.two_yyphb_box li .txt p a{font-size: 14px;font-weight: inherit;}
+ul.two_yyphb_box li .txt h3 span a{color: #0078d7;font-size: 16px;}
+ul.two_yyphb_box li .txt p{height: auto;overflow: hidden;}
+ul.two_yyphb_box li .txt p span{float: left; margin-right:10px;font-size: 14px;height: 18px;border: 1px solid #999999;text-align: center;line-height: 16px;color: #020202;border-radius: 5px;padding:0 3px;}
+ul.two_yyphb_box li .txt p b a{color: #666666;font-size: 14px; font-family:"微软雅黑"; font-weight:normal;}
+ul.two_yyphb_box li .txt p b{color: #666666;font-size: 14px; font-family:"微软雅黑"; font-weight:normal; cursor:pointer;}
+.yyphb span {border-bottom: 0;}
+.yyphb span.on {border-bottom: 2px solid #015293;}
+.yyphb a.on {color: #000;
+border-bottom: 2px solid #015293;
+}
+/*应用排行新加样式*/
+.two_yyphb_box li .pic .yd_ewm{position: absolute;
+
+    top: -20px;
+    display: none;
+    left: -35px;
+    z-index: 9999;    border: 5px solid #fff;}
+.two_yyphb_box li .yyph_ewm_ct{    position: absolute;
+    bottom: 33px;
+    z-index: 99999;
+    left: 45px;
+    display: none;
+    }
+
+            
+/*最新应用*/
+.two_zxyy_box{height: auto;overflow: hidden;margin-top:15px;}
+.two_zxyy_box a{float: left;width:120px; height:136px;text-align: center;font-size:14px;margin:0px 2px 5px 2px;font-family:"微软雅黑";}
+.two_zxyy_box a img{display: block;margin: 0 auto 5px;}
+.two_zxyy_box a span{display: block;line-height: 22px;color: #000000;}
+.two_zxyy_box a b{font-weight: normal;color: #0078d7;letter-spacing: -0.02em;overflow:hidden; font-family:"微软雅黑";}
+.zx_pop{position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.701961);
+    display: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-style: normal;
+    padding-top: 120px;
+    box-sizing: border-box;
+    font-family: 微软雅黑;}
+ .two_zxyy_box a img.ewm_ct{    position: absolute;
+    left: 65px;
+    top: 47px;
+    z-index: 9999;display: none;}
+/*检索开始*/
+.ser_search{width:257px;margin: 0 auto 10px;height: auto;overflow: hidden;}
+.ser_search .left{width: 250px;}
+.ser_search .left .zhetie ul{ z-index:9999;background: #fff;position: absolute;width: 79px;border: 1px solid #005393;box-sizing: border-box;display: none;}
+.ser_search .left .zhetie ul li{box-sizing: border-box;padding: 0.3rem 0 0.3rem 0.5rem;font-size:14px;border-bottom: 1px dashed #005393;}
+.ser_search .left .zhetie h3{width:79px;height:25px;overflow: hidden; margin-bottom:1px; background-color:#015293; color:#fff; font-size:14px; line-height:25px; text-align:center; cursor:pointer;}
+.ser_search .zhetie .left h3 a{float: left;color: #1b1b1b;padding: 0 7px;height: 30px;line-height: 30px;margin-right: 15px; font-size:14px;}
+.ser_search .zhetie .left h3 a.on{color: #fff;background: #015293;}
+.ser_search .left div{height: auto;overflow: hidden;border: 1px solid #015293;background: url(http://103.66.33.30/images/8/fw_2.jpg) no-repeat 190px center #015293;   -moz-border-radius:5px; /* Firefox */
+  -webkit-border-radius:5px; /* Safari 和 Chrome */
+  border-radius:5px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */}
+.ser_search .left div input[type=text]{    width: 180px;
+    float: left;
+    height: 18px;
+    border: 0;
+    padding: 5px 5px;}
+.ser_search .left div input[type=button]{float: right;width: 56px;height: 26px;border: 0;background: none;cursor: pointer;}
+.ser_search .left p{color: #333333;position: relative; margin-top:5px;}
+.ser_search .left p a{color: #333333;font-size: 12px;font-family: "宋体";padding-right: 10px;}
+.ser_search .left p b{font-weight: normal;font-size: 12px;font-family: "宋体";}
+.ser_search .left p .more{position: absolute;right: 0;color: #878787;font-size: 12px;font-family: "宋体";padding: 0;top: 4px;}
+.ser_search .right{margin-top: 20px;}
+.right{float: right;}
+.column3ri1_2{ background:none;}
+.mb15{ margin-bottom:15px;}
+.mb22{ margin-bottom:22px;} 
+.two_fwzt_slide{margin-top: 20px;position: relative;}
+.two_fwzt_slide .prev{width: 6px;height: 55px;background: url(/govweb/xhtml/2016gov/public/pic20181229/larrow.png) no-repeat center;display: block;position: absolute;left: -2px;top: 0;}
+.two_fwzt_slide .next{width: 6px;height: 55px;background:url(/govweb/xhtml/2016gov/public/pic20181229/rarrow.png) no-repeat center;display: block;position: absolute;right: -2px;top: 0;}
+.two_fwzt_slide .bd{width:229px;margin: 0 auto 10px;overflow: hidden;}
+ul.sjcx{clear:both;list-style:none; margin-top:15px;}
+ul.sjcx li{ float:left;margin:0px 3px 0px 3px; list-style:none;}
+ul.sjcx li a{color:#0078d7; font-size:16px;}
+.column3ri2{padding-top:5px;}
+.column3ri2_1{height:100px;}
+.column3ri2_1 ul li{ background:none;}
+.column3ri2_2 li{line-height:23px;}
+.dys_mb15{
+  
+}
+.column3mi6 li{line-height: 24px; }
+
+.logoLianghui{position: absolute;width:512px;height:62px;background:url(/govweb/xhtml/zhuanti/2018lhzfgzbg/images/logoLianghui.png) no-repeat;left:50%;margin-left:49px;top:13px;z-index: 3;}
+.cloud{position: absolute; width:100%;height:100%;*height:1226px;top:0px;right:0px; background:url(/govweb/xhtml/zhuanti/2018lhzfgzbg/images/cloud.png) no-repeat top center;-webkit-background-size:cover;
+background-size:cover;background-size:100% 100%\9;*background-size:100% 100%;z-index:-2;}
+.cloud2{opacity:0.4;right:0px;background-position:0 50% }
+.closeBg{position:absolute;width:28px;height:45px;top:7px;right:0px;z-index:999;cursor: pointer;
+}
+
+/*服务右侧全国政务服务总门户*/
+.qgzwfwzmh20180530{
+  float: right;
+  font-family: "微软雅黑","宋体";
+  font-size: 14px;
+  display: block;
+  line-height: 30px;
+  color: #888888;
+  font-weight: lighter;
+}
+
+
+.header_right{width:310px; margin-right:37px;}
+.search{ width:300px; height:22px; position:relative;}
+.search_mi{ width:263px; height:22px; line-height:22px; border:none; position:absolute; left:0; padding-left:14px; padding-right:23px;background:url(/govweb/xhtml/2016gov/images/public/sousuok.png) no-repeat; }
+
+
+
+.yeslogin ul,li{
+    list-style-type:none;   
+    padding:0;    
+    margin:0;   
+}   
+.yeslogin{
+  position:relative;
+  z-index:100;
+}
+.yeslogin ul li{
+  float:none; 
+  line-height: 34px;
+  margin-left: 15px;
+  width: 50px;
+} 
+.yeslogin ul li a{
+  color:#7B7B7B; 
+}
+.usercenter{
+  margin-top:10px;
+  border-bottom: 1px solid #F0F0F0;
+} 
+.yeslogin ul{
+    top:20px;
+    left:-20px;
+    position:absolute;  
+    display:none;
+    width:80px;
+    background-image: url("https://user.www.gov.cn/static/images/outborder.png");
+}   
+.yeslogin:hover ul{   
+  display:block;    
+} 
+.morphext > .animated {
+  display: inline-block;
+}
+
+.dys_fudong{
+  position: relative;
+  float: left;
+  width: 60px;
+}
+
+.dys_fudong span{
+  padding: 0;
+}
+.column3mi2 .lmtit {
+    height:28px;
+    margin-bottom: 10px;
+} 
+.two_fwzt_slide .bd{
+  height:56px;
+}
+.dyschangemt18{
+  margin-top: 18px;
+}
+.lmtit.jdmd.changedys20180330height{
+  height: 25px;
+}
+.column3lp_1 span{
+    float: right;
+    font-family: "微软雅黑","宋体";
+    font-size: 14px;
+    display: block;
+    line-height: 30px;
+}
+.column3lp_1 .lmtit span a {
+    float: right;
+    font-family: "微软雅黑","宋体";
+    font-size: 14px;
+    display: block;
+    line-height: 30px;
+    color: #888888;
+    font-weight: lighter;
+}
+.column3lp_1 .lmtit span a:hover{
+  color: #566a9d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+简
+|
+繁
+|
+EN
+|
+
+
+
+
+个人中心
+退出
+
+
+注册
+|
+登录
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+国务院
+
+总　　理李克强
+
+
+常务会议
+（
+视窗
+
+解读
+）
+
+
+副总理韩正孙春兰（女）胡春华刘鹤
+全体会议
+国务委员魏凤和王勇王毅肖捷赵克志
+秘 书 长肖捷（兼）
+组织机构
+
+
+
+总理
+
+最新
+讲话
+文章
+音频
+视频
+图片库
+媒体报道
+专题
+总理说
+
+
+新闻
+
+要闻
+专题
+政务联播
+新闻发布
+人事
+图片
+滚动
+
+
+政策
+
+最新
+文件库
+解读
+法律法规
+公报
+双创
+
+
+互动
+
+督查
+我向总理说句话
+高端访谈
+文津圆桌
+政策法规意见征集
+
+
+
+服务
+
+便民服务
+部门地方大厅
+政府权责清单
+服务搜索
+服务专题
+
+
+数据
+
+数据查询 
+数据快递
+数据要闻
+商品价格
+
+
+国情
+
+国旗
+国歌
+国徽 
+行政区划
+
+
+
+
+
+
+
+
+
+function j2gb(url)
+{
+  if(location.hostname="big5.gov.cn")
+  {
+      location.href="ht"+"tp://"+"www.gov.cn";
+      return false;
+  }
+else
+  {
+return false;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+习近平抵达斯里巴加湾开始对文莱达鲁萨兰国进行国事访问
+
+
+习近平：将中文睦邻友好关系提升到新高度 | 在文莱媒体发表署名文章 引热烈反响
+
+
+
+
+
+
+
+
+  
+ 
+
+习近平抵达斯里巴加湾开始对文莱达鲁萨兰国进行国事访问
+
+
+
+  
+ 
+
+李克强新加坡之行：以自贸区升级维护多边主义和自由贸易
+
+
+
+  
+ 
+
+我国成功发射第四十二、四十三颗北斗导航卫星
+
+
+
+  
+ 
+
+首届联合国世界地理信息大会技术与应用展览在华开幕
+
+
+
+  
+ 
+
+冬日动起来！
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+国务院国务院常务会议
+
+
+李克强新加坡之行：以自贸区升级维护多边主义和自由贸易 | 专题
+
+
+李克强总理出访这4个细节你注意到了吗？
+
+
+图集：《新加坡随想曲》中回顾李克强出席东亚合作领导人系列会 | 南洋旋律伴奏首次访新
+
+
+税务总局：个税改革将带来征管模式转变
+
+
+负面清单“由外及内” 外商投资改革“自浅入深”
+
+
+报告显示：我国碳排放增速逐渐降低
+
+
+
+
+
+
+专题
+
+
+
+李克强总理亚欧之行 | “1+6”圆桌对话会
+
+
+聚焦“互联网+政务服务” | 政务公开交流
+
+
+
+
+
+
+视 听 画 
+
+
+
+
+ 
+
+
+李克强新加坡之行，这4个细节你注意到了吗
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#audio_box{ position:relative; width:99px;height:243px;overflow:hidden; background:#d3d3d3; margin-top:18px;float:left;}
+.audiojs{ position:absolute; right:0px; top:2px; box-shadow:none; width:99px;height:241px; background:#ccc;}
+#audio_box .audio_list{ position:absolute; left:0px; bottom:40px; height:0px; overflow:hidden; z-index:99;background: rgba(0,0,0,0.6); width:100%; right:0px;}
+#audio_box .time em{ color:#858585;font-style:normal;}
+#audio_box .time{display: block; font-size:12px;_font-size:12px; border-left:none; color:#858585;text-shadow:none;margin:0;padding:0 0 0 3%; width:94%; height:36px;overflow:hidden;text-align: center;}
+#audio_box .duration{}
+.audiojs .progress{ background:#A2D101;}
+.audiojs .play-pause{width:87px;height:132px;}
+.audiojs .play-pause{ border-right:none;}
+.audiojs .loaded,.audiojs .scrubber{ width:470px; display:none;}
+.audiojs .pause,.audiojs .play{background:url(/govweb/xhtml/2016gov/images/public/icon_18.gif) no-repeat 0 0; width:61px; height:61px;margin-left:12px; margin-top:72px;}
+div.playing .play{ background-image:url(/govweb/xhtml/2016gov/images/public/icon_18_click.gif)}
+.spyp_main{ position:relative; height:318px;}
+.spyp_main .spyp_con{ position:absolute; left:0px; top:0px;}
+    
+        var a = audiojs.createAll({
+        trackEnded: function() {
+        var next = $('ol li.playing').next();
+        if (!next.length) next = $('ol li').first();
+        next.addClass('playing').siblings().removeClass('playing');
+        audio.load($('a', next).attr('data-src'));
+        //audio.play();
+        }
+      });
+      var audio = a[0];
+        first = $('ol a').attr('data-src');
+      $('ol li').first().addClass('playing');
+      audio.load(first);
+      $('ol li').click(function(e) {
+        e.preventDefault();
+        $(this).addClass('playing').siblings().removeClass('playing');
+        audio.load($('a', this).attr('data-src'));
+        audio.play();
+      });
+      $('#audio_box .next').click(function(){var next = $('li.playing').next();
+        if (!next.length) next = $('ol li').first();
+        next.click();})
+      $('#audio_box .prev').click(function(){var prev = $('li.playing').prev();
+        if (!prev.length) prev = $('ol li').last();
+        prev.click();})
+      $(document).keydown(function(e) {
+        var unicode = e.charCode ? e.charCode : e.keyCode;
+        if (unicode == 39) {
+        $('#audio_box .next').click()
+        } else if (unicode == 37) {
+        $('#audio_box .next').click()
+        }
+      })
+      $('.close_audio').click(function(){
+        startMove(document.getElementById('audio_list'), {
+          height:0
+        },
+        1e3, "bounceOut",function(){
+          $('#audio_box').fadeOut();
+          $('.open_music').fadeIn()
+        })
+      })
+      var audio_list=$('#audio_list');
+      $('.open_music').click(function(){
+        $(this).hide();
+        $('#audio_box').fadeIn(300,function(){
+          startMove(audio_list[0], {
+            height:audio_list.find('li').length*30+60
+          },
+          1e3, "bounceOut")
+        })
+      })
+        
+
+
+李克强结束出访回京
+
+
+
+
+
+ 
+
+
+日历 | 李克强总理出席东亚峰会
+
+
+
+
+
+
+政务联播
+
+【三部门】正式发布电子证照六项国家标准
+【财政部】印发代理记账行业协会管理办法
+【林草局】开展林业安全生产大检查督查
+【甘肃】开展青少年近视调查工作
+【贵州】两次提高城乡居民基础养老金标准
+【广西】多举措降低企业用地成本
+
+
+
+
+
+经典瞬间秒懂国务院　
+
+
+
+
+ 
+李克强参观华为公司“专利墙”（2015-01-04）
+
+
+
+
+
+ 
+秒懂国务院 | “证照分离”，分手快乐！
+
+
+
+
+
+
+
+
+
+政策政府信息公开专栏
+
+
+
+中共中央 国务院关于学前教育深化改革规范发展的若干意见 | 解读（11-15）
+
+国办印发关于调整国务院第二次全国污染源普查领导小组组成人员的通知（11-12）
+
+国办印发《政府网站集约化试点工作方案》（11-09）
+
+消防救援衔标志式样和佩带办法（11-08）
+
+国办印发《关于聚焦企业关切进一步推动优化营商环境政策落实的通知》（11-08）
+
+国办印发《关于调整国务院抗震救灾指挥部组成人员的通知》（11-07）
+
+国务院批复进一步支持杨凌农业高新技术产业示范区发展若干政策（11-05）
+
+
+
+
+
+
+文件库
+国务院公报
+
+
+
+
+
+
+全部
+过去一周
+过去一月
+
+
+
+至
+
+
+高级搜索
+
+
+
+        $(function(){
+          $("input.searchwj").val("搜索")
+        })
+      
+
+
+
+
+
+
+          a {
+            text-decoration: none;
+          }
+          .con_01 {
+            width: 295px;
+            height: 365px;
+            margin: 0px auto;
+          }
+          .btn_001 {
+            float: left;
+            width: 98px;
+            height:28px;
+            margin: 0px 24px;
+            line-height: 27px;
+            text-align: center;
+            background-image: url('/govweb/xhtml/2016gov/20170512ceshi/images/btn0512.png');
+          }
+          .btn_001 a {
+            color: #fff;
+            font-size: 14px;
+            /*font-weight: bold;*/
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .box_0001 {
+            clear: both;
+            position: relative;
+            width: 281px;
+            height: 109px;
+            margin-bottom: 15px;
+            padding: 12px 5px 5px 5px;
+            border: 1px solid #ccc;
+          }
+          .box_0001 h3 {
+            position: absolute;
+            left: 100px;
+            top: -12px;
+            width: 77px;
+            height: 24px;
+            text-align: center;
+            background-color: #fff;
+          }
+          .box_0001 h3 a {
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 24px;
+            color: #3c3c3c;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+       .left_right_sroll_father{
+            position: relative;
+            height: 143px;
+            width: 293px;
+            overflow: hidden;
+          }
+          .left_right_sroll{
+             position: absolute;
+             left: 0;
+             top: 0;
+          }
+          .left_right_sroll .box_0001{
+            float: left;
+            clear: none;
+          }
+          .wenzi_box {
+            float: left;
+            width: 158px;
+            margin-right: 10px;
+          }
+          .wenzi_box h2{
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 4px;
+            color: #015293;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .wenzi_box h2 a{
+            font-weight: bold;
+            font-size: 15px;
+            color: #015293;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .wenzi_box p {
+            color: #1a1a1a;
+            font-size: 13px;
+            line-height: 20px;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .wenzi_box p a {
+            color: #2ea0fb;
+          }
+          .anniu_box {
+            clear: both;
+            height: 44px;
+          }
+          .r_pic {
+            float: right;
+            width: 105px;
+            height: 105px;
+    
+          }
+          .mb_8 {
+            margin-bottom: 8px;
+          }
+      .column3ri1 .lmtit{
+        border-bottom:1px solid #b7b7b8;}
+        .qgzwfwzmh20180530 p a{color:#888888;}
+        
+
+
+互动
+  |  答题国务院大事我知道
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+我要留言
+
+留言选登
+
+
+
+
+
+
+国务院大事我知道2018年第11期
+
+
+                            2018年10月哪些政府工作是你关心的？来参与趣味小测试测一测吧！>>>
+
+ 
+  
+
+
+
+
+国务院大事我知道2018年第10期
+
+
+                            2018年9月哪些政府工作是你关心的？来参与趣味小测试测一测吧！>>>
+
+ 
+  
+
+
+
+
+
+
+回应关切
+
+
+
+税务总局：严格按5000元费用减除标准扣税
+
+
+                          扣缴义务人错选税款所属月份导致未享受减除费用，可申请退税。>>>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+部长之声发布会
+ 
+知识产权局：放宽专利代理行业准入
+
+
+新闻办介绍《反垄断法》实施十周年情况
+新闻办召开新闻发布会介绍2018年10月份国民经济运行情况
+海关总署：今年我国进出口整体通关时间将分别压缩至65小时、8.2小时
+人社部解读前三季度就业、社会保障等数据
+新闻办举行发布会介绍银行业和保险业服务民营、小微企业有关情况
+
+
+
+
+
+
+督查
+
+
+
+
+生态环境部通报2018-2019年蓝天保卫战重点区域强化监督检查情况
+第二批中央生态环境保护督察“回头看”全部实现督察进驻
+水利部召开河湖执法督查工作推进会
+生态环境部通报2018-2019年蓝天保卫战重点区域强化监督重污染天气应对检查情况
+第二批中央生态环境保护督察“回头看”近日将全面启动
+
+
+
+
+
+
+
+
+
+$(function(){
+  var weather_box_small = $("#weather_box_small");
+  $.ajax({  
+        type: "GET",  
+        async: true,  
+        url: "http://bmfw.www.gov.cn/ZFW-AccessPlatform/front/weather/observe_ky.do?callback=?",
+        data:{},
+        dataType: "jsonp",  
+        //jsonp: "callback",//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback)   
+        success: function (data) { 
+          if(weather_box_small.length > 0){
+          var html_2 = "<div style='width:110px;height:25px;position:relative;'>"
+                  +"<img style='float: left;width:25px;height:25px;' src='http://bmfw.www.gov.cn"+data.weatherPicture_small+"'>"
+                +"<p style='margin:0;display: block;font-size: 16px;float: left;height: 25px;line-height: 25px;font-family: Microsoft YaHei;margin-left: 7px;'>"+data.temperature+"℃ "+data.city+"</p>"
+                +"</div>";
+          $("#weather_box_small").html(html_2);
+        }  
+        },  
+        error: function (XMLHttpRequest, textStatus, errorThrown) {  
+          
+        }  
+    });  
+});
+
+
+
+
+
+
+服务
+
+
+
+全国政务服务总门户
+
+
+
+
+
+
+
+
+
+热词：
+
+
+
+
+      $(function(){
+       $('#q').on('focus',function () {
+           $(this).css("color","#000");
+          if($(this).val()=='请输入你想找的服务'){
+        
+            $(this).val('');
+          
+            
+        }
+       });
+      $("#pc_submit").click(function(){
+          var q=$("#q").val();
+          var category=$(".zhetie h3 a.on").attr("name");
+          var search_url="http://search.www.gov.cn/search/fw/cateSearch.do?webid=1&category="+category+"&q="+encodeURIComponent(q);
+          if(q == '请输入你想找的服务'){
+            q = '';
+          }
+          if(category==""||category==null){
+            search_url="http://search.www.gov.cn/search/fw/search.do?webid=1&q="+encodeURIComponent(q);
+
+          }
+          window.open(search_url,"_blank")
+        })
+      $(".pc_search #q").keydown(function(){
+          if(event.keyCode == "13"){
+            $("#pc_submit").click();
+          }
+        })
+        $.ajax({
+            type: "get",
+            url: "http://search.www.gov.cn/search/search/plugin/wordranklist.do?size=4&webid=1",
+            async: true,
+            dataType:'jsonp',
+            crossDomain: true,
+            success: function(response) {
+              var html = '';
+              var count = 0;
+              $.each(eval(response),function(index,value){
+                html += "<a target='_blank' href='http://search.www.gov.cn/search/fw/search.do?webid=1&q="+encodeURI(value)+"'>"+value+"</a>";
+                count++;
+              });
+              $('.a').append(html);
+            }
+          });
+        
+      })
+      
+    
+
+
+2018年部分节假日安排 | 图解
+国务院本周提醒
+国务院@你，本周6件民生大事
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+走失人口查询[天津]
+
+
+
+
+
+
+
+ 
+
+
+
+户籍办理进度查询[吉林]
+
+
+
+
+
+
+
+推荐主题
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+1
+2
+3
+
+
+
+
+最新应用
+
+
+ 
+
+                [天津]
+              
+              走失人口查询
+            
+
+
+
+ 
+
+                [北京]
+              
+              居住证办理网点查询
+            
+
+
+
+ 
+
+                [天津]
+              
+              机动车违法查询
+            
+
+
+
+ 
+
+                [广东]
+              
+              国家职业资格证书查询
+            
+
+
+
+
+
+
+数据
+
+
+10月份全国城镇调查失业率为4.9% 与上月持平
+10月份规模以上工业增加值同比实际增长5.9%
+10月份高技术制造业增加值同比增长12.4%
+
+
+
+数据查询与下载
+
+GDP
+CPI
+PPI 
+粮食产量 
+工业生产增长速度
+总人口
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(function(){
+  $('.date_picker').date_input();
+  })
+
+
+
+
+
+
+$(function(){   
+    /*focus*/
+    var sliderElement = $('.slider-carousel');
+    sliderElement.slidesjs({
+        play: {
+            auto: true,
+            effect: 'fade'
+        },
+        navigation: {
+            effect: "fade"
+        },
+        pagination: {
+            effect: "fade"
+        },
+        effect: {
+            slide: {
+                speed: 400
+            }
+        }
+    });
+    var slidernav = sliderElement.find('.slidesjs-navigation');
+    sliderElement.hover(function() {
+        slidernav.stop().show()
+    },function() {
+        slidernav.stop().hide()
+    });
+  
+  slidernav.hover(function(){
+    $(this).show();
+  }),function(){
+    $(this).show();
+  }
+  
+
+    $(".flexslider").each(function(){
+        $(this).hover(function(){
+            $(this).find(".flex-direction-nav").fadeIn("slow")
+        },function(){
+            $(this).find(".flex-direction-nav").hide()
+        })
+    })
+});
+
+
+
+  ;(function ($) {
+    
+      /*$('.left_right_sroll_father').slideshow({
+            bigImgScroll_list:'.left_right_sroll',
+            bigImgScroll_btn:'.bigImgScroll_btn',
+            bigImgScroll_listItem_margin:0,
+            scrollTime:500,
+            isAuto:false,
+            isFloat:true
+      });*/
+      
+        var $box_0001_width=$('.left_right_sroll .box_0001').outerWidth(true);
+    
+        
+        var $box_0001_length=$('.left_right_sroll .box_0001').length;
+        
+        $('.left_right_sroll').width($box_0001_width*$box_0001_length);
+        
+  })(jQuery);
+
+
+
+      jQuery(function(){
+      if (!$('#hdPic')[0]) 
+      return;
+      var i = 0, p = $('#hdPic ul'), pList = $('#hdPic ul li'), len = pList.length;
+      var elePrev = $('#prev'), eleNext = $('#next');
+      //var firstClick = false;
+      var w = 100, num = 3;
+      p.css('width',w*len);
+      if (len <= num) 
+      eleNext.addClass('gray');
+      function prev(){
+      if (elePrev.hasClass('gray')) {
+        
+      //alert('已经是第一张了');
+      return;
+      }
+      p.animate({
+      marginTop:-(--i) * w
+      },500);
+      if (i < len - num) {
+      eleNext.removeClass('gray');
+
+      }
+      if (i == 0) {
+      elePrev.addClass('gray');
+    
+      }
+      }
+      function next(){
+      if (eleNext.hasClass('gray')) {
+        
+      //alert('已经是最后一张了');
+
+      return;
+      }
+      //p.css('margin-left',-(++i) * w);
+      p.animate({
+      marginTop:-(++i) * w
+      },500);
+      if (i != 0) {
+      elePrev.removeClass('gray');
+      }
+      if (i == len - num) {
+      eleNext.addClass('gray');
+      }
+      }
+      elePrev.bind('click',prev);
+      eleNext.bind('click',next);
+      pList.each(function(n,v){
+      $(this).click(function(){
+      if(n-i == 2){
+      next();
+      }
+      if(n-i == 0){
+      prev()
+      }
+      $('#hdPic ul li.cur').removeClass('cur');
+      $(this).addClass('cur');
+      show(n);
+      }).mouseover(function(){
+      $(this).addClass('hover');
+      }).mouseout(function(){
+      $(this).removeClass('hover');
+      })
+      });
+      
+      });
+
+
+
+    jQuery(".two_fwzt_slide").slide({
+        mainCell: ".bd ul",
+        autoPlay: true,
+        delayTime:2000,
+        triggerTime:500,
+        interTime:5000
+      });
+
+
+  
+
+
+
+
+  function getRootPath(){
+      //获取当前网址，
+      var curPath=window.document.location.href;
+      //获取主机地址之后的目录，
+      var pathName=window.document.location.pathname;
+      var pos=curPath.indexOf(pathName);
+      //获取主机地址
+      var localhostPaht=curPath.substring(0,pos);
+      //获取带"/"的项目名，
+      var projectName=pathName.substring(0,pathName.substr(1).indexOf('/')+1);
+      return(localhostPaht+projectName);
+  }
+   function GetQueryString(name)
+  {
+       var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+       var r = decodeURI(window.location.search).substr(1).match(reg);
+       if(r!=null)return  r[2]; return null;
+  }
+  var servicecode = GetQueryString("servicecode");
+  var gourl = document.referrer;
+  var time = GetQueryString("time");
+  var sign = GetQueryString("sign");
+  var showname = GetQueryString("showname");
+  var ip = getRootPath();
+  /* if(servicecode==null||servicecode==""||time==null||time==""||sign==null||sign==""){
+    servicecode = "idm";
+    time = "20171010121212";
+    sign = "7c4b1d93fa33e1fe51ba119bea0a56aa";
+  } */
+  if(servicecode==null||servicecode==""||time==null||time==""||sign==null||sign==""){
+    servicecode = "zfw";
+    time = "20171010121212";
+    sign = "18403a6fefb59a54620a22e3609fe213";
+  }
+  idm.config({
+    debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert
+    url:'https://user.www.gov.cn/',   // 必填，idm地址
+      servicecode: servicecode,         // 必填，接入代码
+      time: time,
+    sign: sign, // 必填，签名
+    success:function(){ // 回调函数（成功）
+      islogin();
+    },
+    fail:function(r)  { // 回调函数(失败)
+      $(".nologin").removeClass("hide");
+    }
+  });  
+  
+  
+   
+   $(function(){
+    /*  if(showname!=null&&showname!=""&&showname.length>0){
+      //注意 这个脱敏手机号进行了修改 页面上显示只能达到八个字符
+      if(showname.length==11){
+        showname = showname.replace('****','*');
+      }else{
+        showname = "  "+showname;
+      }
+      $("#showname").html(showname);
+      $(".yeslogin").removeClass("hide");
+      $(".nologin").addClass("hide");
+     } */
+     
+     
+    //注册页面
+    $('#userreg').click(function(){
+      idm.user.openreg ({
+        redirect:true,
+        gourl: gourl,// 业务地址：非必填。回调总入口将以sp参数返回
+        extargs: ''   // 扩展参数：非必填。回调将回传
+      });
+    })
+    //登录页面
+    $('#userlogin').click(function(){
+      idm.user.openlogin ({
+        redirect:true,
+        gourl: gourl,// 业务地址：非必填。回调总入口将以sp参数返回
+        extargs: ''   // 扩展参数：非必填。回调将回传
+      });
+    })
+    
+    //个人中心
+    $('#usercenter').click(function(){
+       idm.user.openedit ({
+          gourl: gourl  // 票据：非必填。
+      }); 
+    })
+      //退出登录
+    $("#logout").click(function(){
+      
+      /* $.post(logoutUrl,function(){
+        location.reload();
+      }); */
+       idm.user.logout({
+        success:function(){ // 回调函数（成功）
+          if(gourl!=null&&gourl!=""){
+            window.location.href = gourl;
+          }else{
+            window.location.href = "https://user.www.gov.cn/";
+          }
+          
+        },
+        fail:function(r)  { // 回调函数(失败)
+          
+        }
+      }) 
+    })
+  })
+   
+    
+  
+  function islogin(){
+    idm.user.islogin ({
+    success:function(r){  // 回调函数（成功）
+      var showname = r.showname;
+      if(showname==undefined){
+        showname = "****";
+      }
+      //注意 这个脱敏手机号进行了修改 页面上显示只能达到八个字符
+      if(showname.length==11){
+        showname = showname.replace('****','*');
+      }else{
+        showname = "  "+showname;
+      }
+      $("#showname").html(showname);
+      $(".yeslogin").removeClass("hide");
+      $(".nologin").addClass("hide");
+    },
+    fail:function(r)  { // 回调函数(失败)
+      $(".nologin").removeClass("hide");
+      $(".yeslogin").addClass("hide");
+    }
+    });
+  } 
+
+
+$("#js-rotating3").Morphext({
+  animation: "lightSpeedIn"
+});
+
+
+
+  ;(function ($) {
+    
+    $('.dys_fudong').hover(
+      function () {
+        $(this).animate({
+          top:-5
+        });
+      },
+      function () {
+        $(this).animate({
+          top:0
+        });
+      }
+    );
+    
+    
+  })(jQuery);
+
+
+
+  (function ($) {
+      var $fuwulenght=$('.two_yyphb_box li').length;
+      
+      switch ($fuwulenght){
+        case 1:$('.two_yyphb_box li').eq(0).css('border-bottom', 'none');
+          break;
+        case 2:
+          $('.two_yyphb_box li').eq(1).css('border-bottom', 'none');
+          
+          break;
+        case 3:
+          $('.two_yyphb_box li').eq(2).css('border-bottom', 'none');
+          
+          break;
+        default:
+          break;
+      }
+  })(jQuery);
+
+
+
+
+      /*滚动插件slider*/
+      /*调用$().slider({})*/
+      ;(function ($) {
+        $('.box20180503').slider({
+          //显示的子元素个数
+          showNum:1,
+          //滚动的个数
+          scrollNum:1,
+          //子元素间隔
+          scrollItemSpacing:1,
+          //是否自动滚动
+          isAuto:false,
+          //滚动的容器
+          sliderContainer:'.two_rmfl_box',
+          //幻灯片导航
+          sliderNav:'.hot_title_nav20180517',
+          //滚动间隔时间
+          scrollTime:1000
+       
+        });
+        
+      })(jQuery);
+      
+    
+
+document.write(unescape("%3Cscript src='http://stat.www.gov.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));
+wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")
+
+
+(function() {
+    var N = 100;
+    var P = 0.9;
+    var R = N * P;
+    var X = Math.floor(Math.random() * N);
+    if (R >= X) {
+        _atrk_opts = {
+            atrk_acct: "noGfn1aMp4107i",
+            domain: "www.gov.cn",
+            dynamic: true
+        }; 
+        (function() {
+            var as = document.createElement("script");
+            as.type = "text/javascript";
+            as.async = true;
+            as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js";
+            var s = document.getElementsByTagName("script")[0];
+            var ns = document.createElement("noscript");
+            var img = document.createElement("img");
+            img.src ="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=noGfn1aMp4107i";
+            img.style="display:none";
+            img.height = 1;
+            img.width = 1;
+            img.alt = "";
+            s.parentNode.insertBefore(as, s);
+            s.parentNode.insertBefore(ns, s);
+            var nso = document.getElementsByTagName("noscript")[0];
+            nso.appendChild(img);
+        })();
+    }
+})();
+
+
+
+
+
+
+中国政府网_中央人民政府门户网站
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hd_lb{width:295px;height:370px;  position:relative;}
+#hd{}
+.look-talk{
+  width:310px;
+}
+.column3mi5 ul{
+  padding-top:0px;}
+.cxlist li{
+  float: left;
+  width: 98px;
+  height: 115px;
+  margin: 0px 6px;
+  list-style: none;
+}
+.column3ri{width:249px; background:#dcdcdd; float:right; padding:0 13px 7px;}
+.column3ri3{margin-bottom:2px;}
+.column3ri3 ul{margin-top:0px;}
+.cxlist li img{
+  width:64px;
+  height:64px;
+  margin:10px 20px;
+}
+.cxlist li a{
+  display: block;
+  text-align:center;
+  height:auto;
+  line-height:17px;
+  padding-left:0px;
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+}
+.cxlist li a:hover{
+  background:none;
+  height:auto;  
+  color: #000;
+  }
+.h90{height:117px; overflow:hidden;}
+.h125{margin-top:3px;height:125px; overflow:hidden;}
+ul.h90{margin-top:10px; margin-bottom:15px;}
+ul.h90 li{ font-size:15px; line-height:24px;font-family:"微软雅黑","宋体";background:url(/govweb/xhtml/2016gov/images/public/icon_10.jpg) no-repeat 0 13px; padding-left:10px;}
+ul.h90 a{color:#000;}
+ul.h90 li a:hover{color:#025194;}
+.lmtit a.a_line {
+    background: url(/govweb/xhtml/2016gov/images/public/line.jpg) no-repeat right;
+    padding-right: 15px;
+    margin-right: 12px;
+    float: left;
+}
+.sth .lmtit img{ position: relative;top:3px;}
+.column3ri{width:249px; background:#dcdcdd; float:right; padding:0 13px 10px;}
+.column3ri1{ margin-bottom:0px; padding-top:20px;}
+ul.h57{ margin-bottom:0px; margin-top:0px;}
+.mb30{ margin-bottom:30px;}
+.column3ri1 .lmtit{border-bottom:1px solid #bababa;}
+
+
+/*推荐主题*/
+.box20180503{
+  position: relative;
+  height: 97px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+.two_rmfl_box{
+  position: absolute;
+  left: 0;
+  top: 0;
+  
+}
+.two_rmfl_box li{
+  float: left;
+  width: 249px;
+  height: 97px;
+}
+.hot_title_nav20180517{
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  
+}
+.hot_title_nav20180517 a{
+  float: left;
+  width: 17px;
+  height: 15px;
+  background: #0074bf;
+  text-align: center;
+  line-height: 15px;
+  margin-right: 1px;
+  color: #fff;
+  font-family: "microsoft yahei";
+  font-size: 12px;
+}
+.hot_title_nav20180517 a.active{
+  background: #ffba34;
+}
+/*热门应用*/
+
+.tit{height: 36px;line-height: 36px;border-bottom: 1px solid #bababa;}
+.tit span{float: left;color: #000000;font-size: 20px;font-family:"FZZHUNYSK","微软雅黑","宋体";border-bottom: 2px solid #015293;position: relative;top: -1px;}
+.tit span a{color: #000000;font-size: 20px;font-family:"FZZHUNYSK","微软雅黑","宋体";}
+.tit.yyphb a{ display:inline-block; float:left;font-size: 16px;color: #999999;margin: 0 9px;font-family:"微软雅黑"; cursor:pointer;}
+.tit.yyphb b{border-right: 1px solid #999999;}
+ul.two_yyphb_box{margin: 10px 0 10px;
+    height: 251px;
+  *+height: 255px;
+    overflow: hidden;
+  border-radius:5px;
+  background-color:#fff;
+  border:1px solid ##cfcfd0;
+}
+
+@-moz-document url-prefix() {
+    ul.two_yyphb_box{
+      height: 255px;
+    }
+}
+ul.two_yyphb_box li {
+  height:42px;
+  overflow:hidden;
+    margin: 0px 10px;
+    padding: 6px 0;
+    border-bottom: 1px solid #bfbfbf;
+    position: relative;
+}
+ul.two_yyphb_box li .num{float: left;width: 20px;height: 20px;line-height: 20px;text-align: center;color: #fff;background: #959595;border-radius: 2px;margin: 20px 15px 0 10px;}
+ul.two_yyphb_box li .pic{float: left;margin-right:10px; position:relative;*+margin-top:-3px;}
+ul.two_yyphb_box li .txt p a.h_tit{color: #000;font-size: 15px; font-family: "微软雅黑","宋体";line-height: 22px; font-weight:normal;}
+ul.two_yyphb_box li .txt p a{font-size: 14px;font-weight: inherit;}
+ul.two_yyphb_box li .txt h3 span a{color: #0078d7;font-size: 16px;}
+ul.two_yyphb_box li .txt p{height: auto;overflow: hidden;}
+ul.two_yyphb_box li .txt p span{float: left; margin-right:10px;font-size: 14px;height: 18px;border: 1px solid #999999;text-align: center;line-height: 16px;color: #020202;border-radius: 5px;padding:0 3px;}
+ul.two_yyphb_box li .txt p b a{color: #666666;font-size: 14px; font-family:"微软雅黑"; font-weight:normal;}
+ul.two_yyphb_box li .txt p b{color: #666666;font-size: 14px; font-family:"微软雅黑"; font-weight:normal; cursor:pointer;}
+.yyphb span {border-bottom: 0;}
+.yyphb span.on {border-bottom: 2px solid #015293;}
+.yyphb a.on {color: #000;
+border-bottom: 2px solid #015293;
+}
+/*应用排行新加样式*/
+.two_yyphb_box li .pic .yd_ewm{position: absolute;
+
+    top: -20px;
+    display: none;
+    left: -35px;
+    z-index: 9999;    border: 5px solid #fff;}
+.two_yyphb_box li .yyph_ewm_ct{    position: absolute;
+    bottom: 33px;
+    z-index: 99999;
+    left: 45px;
+    display: none;
+    }
+
+            
+/*最新应用*/
+.two_zxyy_box{height: auto;overflow: hidden;margin-top:15px;}
+.two_zxyy_box a{float: left;width:120px; height:136px;text-align: center;font-size:14px;margin:0px 2px 5px 2px;font-family:"微软雅黑";}
+.two_zxyy_box a img{display: block;margin: 0 auto 5px;}
+.two_zxyy_box a span{display: block;line-height: 22px;color: #000000;}
+.two_zxyy_box a b{font-weight: normal;color: #0078d7;letter-spacing: -0.02em;overflow:hidden; font-family:"微软雅黑";}
+.zx_pop{position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.701961);
+    display: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-style: normal;
+    padding-top: 120px;
+    box-sizing: border-box;
+    font-family: 微软雅黑;}
+ .two_zxyy_box a img.ewm_ct{    position: absolute;
+    left: 65px;
+    top: 47px;
+    z-index: 9999;display: none;}
+/*检索开始*/
+.ser_search{width:257px;margin: 0 auto 10px;height: auto;overflow: hidden;}
+.ser_search .left{width: 250px;}
+.ser_search .left .zhetie ul{ z-index:9999;background: #fff;position: absolute;width: 79px;border: 1px solid #005393;box-sizing: border-box;display: none;}
+.ser_search .left .zhetie ul li{box-sizing: border-box;padding: 0.3rem 0 0.3rem 0.5rem;font-size:14px;border-bottom: 1px dashed #005393;}
+.ser_search .left .zhetie h3{width:79px;height:25px;overflow: hidden; margin-bottom:1px; background-color:#015293; color:#fff; font-size:14px; line-height:25px; text-align:center; cursor:pointer;}
+.ser_search .zhetie .left h3 a{float: left;color: #1b1b1b;padding: 0 7px;height: 30px;line-height: 30px;margin-right: 15px; font-size:14px;}
+.ser_search .zhetie .left h3 a.on{color: #fff;background: #015293;}
+.ser_search .left div{height: auto;overflow: hidden;border: 1px solid #015293;background: url(http://103.66.33.30/images/8/fw_2.jpg) no-repeat 190px center #015293;   -moz-border-radius:5px; /* Firefox */
+  -webkit-border-radius:5px; /* Safari 和 Chrome */
+  border-radius:5px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */}
+.ser_search .left div input[type=text]{    width: 180px;
+    float: left;
+    height: 18px;
+    border: 0;
+    padding: 5px 5px;}
+.ser_search .left div input[type=button]{float: right;width: 56px;height: 26px;border: 0;background: none;cursor: pointer;}
+.ser_search .left p{color: #333333;position: relative; margin-top:5px;}
+.ser_search .left p a{color: #333333;font-size: 12px;font-family: "宋体";padding-right: 10px;}
+.ser_search .left p b{font-weight: normal;font-size: 12px;font-family: "宋体";}
+.ser_search .left p .more{position: absolute;right: 0;color: #878787;font-size: 12px;font-family: "宋体";padding: 0;top: 4px;}
+.ser_search .right{margin-top: 20px;}
+.right{float: right;}
+.column3ri1_2{ background:none;}
+.mb15{ margin-bottom:15px;}
+.mb22{ margin-bottom:22px;} 
+.two_fwzt_slide{margin-top: 20px;position: relative;}
+.two_fwzt_slide .prev{width: 6px;height: 55px;background: url(/govweb/xhtml/2016gov/public/pic20181229/larrow.png) no-repeat center;display: block;position: absolute;left: -2px;top: 0;}
+.two_fwzt_slide .next{width: 6px;height: 55px;background:url(/govweb/xhtml/2016gov/public/pic20181229/rarrow.png) no-repeat center;display: block;position: absolute;right: -2px;top: 0;}
+.two_fwzt_slide .bd{width:229px;margin: 0 auto 10px;overflow: hidden;}
+ul.sjcx{clear:both;list-style:none; margin-top:15px;}
+ul.sjcx li{ float:left;margin:0px 3px 0px 3px; list-style:none;}
+ul.sjcx li a{color:#0078d7; font-size:16px;}
+.column3ri2{padding-top:5px;}
+.column3ri2_1{height:100px;}
+.column3ri2_1 ul li{ background:none;}
+.column3ri2_2 li{line-height:23px;}
+.dys_mb15{
+  
+}
+.column3mi6 li{line-height: 24px; }
+
+.logoLianghui{position: absolute;width:512px;height:62px;background:url(/govweb/xhtml/zhuanti/2018lhzfgzbg/images/logoLianghui.png) no-repeat;left:50%;margin-left:49px;top:13px;z-index: 3;}
+.cloud{position: absolute; width:100%;height:100%;*height:1226px;top:0px;right:0px; background:url(/govweb/xhtml/zhuanti/2018lhzfgzbg/images/cloud.png) no-repeat top center;-webkit-background-size:cover;
+background-size:cover;background-size:100% 100%\9;*background-size:100% 100%;z-index:-2;}
+.cloud2{opacity:0.4;right:0px;background-position:0 50% }
+.closeBg{position:absolute;width:28px;height:45px;top:7px;right:0px;z-index:999;cursor: pointer;
+}
+
+/*服务右侧全国政务服务总门户*/
+.qgzwfwzmh20180530{
+  float: right;
+  font-family: "微软雅黑","宋体";
+  font-size: 14px;
+  display: block;
+  line-height: 30px;
+  color: #888888;
+  font-weight: lighter;
+}
+
+
+.header_right{width:310px; margin-right:37px;}
+.search{ width:300px; height:22px; position:relative;}
+.search_mi{ width:263px; height:22px; line-height:22px; border:none; position:absolute; left:0; padding-left:14px; padding-right:23px;background:url(/govweb/xhtml/2016gov/images/public/sousuok.png) no-repeat; }
+
+
+
+.yeslogin ul,li{
+    list-style-type:none;   
+    padding:0;    
+    margin:0;   
+}   
+.yeslogin{
+  position:relative;
+  z-index:100;
+}
+.yeslogin ul li{
+  float:none; 
+  line-height: 34px;
+  margin-left: 15px;
+  width: 50px;
+} 
+.yeslogin ul li a{
+  color:#7B7B7B; 
+}
+.usercenter{
+  margin-top:10px;
+  border-bottom: 1px solid #F0F0F0;
+} 
+.yeslogin ul{
+    top:20px;
+    left:-20px;
+    position:absolute;  
+    display:none;
+    width:80px;
+    background-image: url("https://user.www.gov.cn/static/images/outborder.png");
+}   
+.yeslogin:hover ul{   
+  display:block;    
+} 
+.morphext > .animated {
+  display: inline-block;
+}
+
+.dys_fudong{
+  position: relative;
+  float: left;
+  width: 60px;
+}
+
+.dys_fudong span{
+  padding: 0;
+}
+.column3mi2 .lmtit {
+    height:28px;
+    margin-bottom: 10px;
+} 
+.two_fwzt_slide .bd{
+  height:56px;
+}
+.dyschangemt18{
+  margin-top: 18px;
+}
+.lmtit.jdmd.changedys20180330height{
+  height: 25px;
+}
+.column3lp_1 span{
+    float: right;
+    font-family: "微软雅黑","宋体";
+    font-size: 14px;
+    display: block;
+    line-height: 30px;
+}
+.column3lp_1 .lmtit span a {
+    float: right;
+    font-family: "微软雅黑","宋体";
+    font-size: 14px;
+    display: block;
+    line-height: 30px;
+    color: #888888;
+    font-weight: lighter;
+}
+.column3lp_1 .lmtit span a:hover{
+  color: #566a9d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+简
+|
+繁
+|
+EN
+|
+
+
+
+
+个人中心
+退出
+
+
+注册
+|
+登录
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+国务院
+
+总　　理李克强
+
+
+常务会议
+（
+视窗
+
+解读
+）
+
+
+副总理韩正孙春兰（女）胡春华刘鹤
+全体会议
+国务委员魏凤和王勇王毅肖捷赵克志
+秘 书 长肖捷（兼）
+组织机构
+
+
+
+总理
+
+最新
+讲话
+文章
+音频
+视频
+图片库
+媒体报道
+专题
+总理说
+
+
+新闻
+
+要闻
+专题
+政务联播
+新闻发布
+人事
+图片
+滚动
+
+
+政策
+
+最新
+文件库
+解读
+法律法规
+公报
+双创
+
+
+互动
+
+督查
+我向总理说句话
+高端访谈
+文津圆桌
+政策法规意见征集
+
+
+
+服务
+
+便民服务
+部门地方大厅
+政府权责清单
+服务搜索
+服务专题
+
+
+数据
+
+数据查询 
+数据快递
+数据要闻
+商品价格
+
+
+国情
+
+国旗
+国歌
+国徽 
+行政区划
+
+
+
+
+
+
+
+
+
+function j2gb(url)
+{
+  if(location.hostname="big5.gov.cn")
+  {
+      location.href="ht"+"tp://"+"www.gov.cn";
+      return false;
+  }
+else
+  {
+return false;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+习近平抵达斯里巴加湾开始对文莱达鲁萨兰国进行国事访问
+
+
+习近平：将中文睦邻友好关系提升到新高度 | 在文莱媒体发表署名文章 引热烈反响
+
+
+
+
+
+
+
+
+  
+ 
+
+习近平抵达斯里巴加湾开始对文莱达鲁萨兰国进行国事访问
+
+
+
+  
+ 
+
+李克强新加坡之行：以自贸区升级维护多边主义和自由贸易
+
+
+
+  
+ 
+
+我国成功发射第四十二、四十三颗北斗导航卫星
+
+
+
+  
+ 
+
+首届联合国世界地理信息大会技术与应用展览在华开幕
+
+
+
+  
+ 
+
+冬日动起来！
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+国务院国务院常务会议
+
+
+李克强新加坡之行：以自贸区升级维护多边主义和自由贸易 | 专题
+
+
+李克强总理出访这4个细节你注意到了吗？
+
+
+图集：《新加坡随想曲》中回顾李克强出席东亚合作领导人系列会 | 南洋旋律伴奏首次访新
+
+
+税务总局：个税改革将带来征管模式转变
+
+
+负面清单“由外及内” 外商投资改革“自浅入深”
+
+
+报告显示：我国碳排放增速逐渐降低
+
+
+
+
+
+
+专题
+
+
+
+李克强总理亚欧之行 | “1+6”圆桌对话会
+
+
+聚焦“互联网+政务服务” | 政务公开交流
+
+
+
+
+
+
+视 听 画 
+
+
+
+
+ 
+
+
+李克强新加坡之行，这4个细节你注意到了吗
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#audio_box{ position:relative; width:99px;height:243px;overflow:hidden; background:#d3d3d3; margin-top:18px;float:left;}
+.audiojs{ position:absolute; right:0px; top:2px; box-shadow:none; width:99px;height:241px; background:#ccc;}
+#audio_box .audio_list{ position:absolute; left:0px; bottom:40px; height:0px; overflow:hidden; z-index:99;background: rgba(0,0,0,0.6); width:100%; right:0px;}
+#audio_box .time em{ color:#858585;font-style:normal;}
+#audio_box .time{display: block; font-size:12px;_font-size:12px; border-left:none; color:#858585;text-shadow:none;margin:0;padding:0 0 0 3%; width:94%; height:36px;overflow:hidden;text-align: center;}
+#audio_box .duration{}
+.audiojs .progress{ background:#A2D101;}
+.audiojs .play-pause{width:87px;height:132px;}
+.audiojs .play-pause{ border-right:none;}
+.audiojs .loaded,.audiojs .scrubber{ width:470px; display:none;}
+.audiojs .pause,.audiojs .play{background:url(/govweb/xhtml/2016gov/images/public/icon_18.gif) no-repeat 0 0; width:61px; height:61px;margin-left:12px; margin-top:72px;}
+div.playing .play{ background-image:url(/govweb/xhtml/2016gov/images/public/icon_18_click.gif)}
+.spyp_main{ position:relative; height:318px;}
+.spyp_main .spyp_con{ position:absolute; left:0px; top:0px;}
+    
+        var a = audiojs.createAll({
+        trackEnded: function() {
+        var next = $('ol li.playing').next();
+        if (!next.length) next = $('ol li').first();
+        next.addClass('playing').siblings().removeClass('playing');
+        audio.load($('a', next).attr('data-src'));
+        //audio.play();
+        }
+      });
+      var audio = a[0];
+        first = $('ol a').attr('data-src');
+      $('ol li').first().addClass('playing');
+      audio.load(first);
+      $('ol li').click(function(e) {
+        e.preventDefault();
+        $(this).addClass('playing').siblings().removeClass('playing');
+        audio.load($('a', this).attr('data-src'));
+        audio.play();
+      });
+      $('#audio_box .next').click(function(){var next = $('li.playing').next();
+        if (!next.length) next = $('ol li').first();
+        next.click();})
+      $('#audio_box .prev').click(function(){var prev = $('li.playing').prev();
+        if (!prev.length) prev = $('ol li').last();
+        prev.click();})
+      $(document).keydown(function(e) {
+        var unicode = e.charCode ? e.charCode : e.keyCode;
+        if (unicode == 39) {
+        $('#audio_box .next').click()
+        } else if (unicode == 37) {
+        $('#audio_box .next').click()
+        }
+      })
+      $('.close_audio').click(function(){
+        startMove(document.getElementById('audio_list'), {
+          height:0
+        },
+        1e3, "bounceOut",function(){
+          $('#audio_box').fadeOut();
+          $('.open_music').fadeIn()
+        })
+      })
+      var audio_list=$('#audio_list');
+      $('.open_music').click(function(){
+        $(this).hide();
+        $('#audio_box').fadeIn(300,function(){
+          startMove(audio_list[0], {
+            height:audio_list.find('li').length*30+60
+          },
+          1e3, "bounceOut")
+        })
+      })
+        
+
+
+李克强结束出访回京
+
+
+
+
+
+ 
+
+
+日历 | 李克强总理出席东亚峰会
+
+
+
+
+
+
+政务联播
+
+【三部门】正式发布电子证照六项国家标准
+【财政部】印发代理记账行业协会管理办法
+【林草局】开展林业安全生产大检查督查
+【甘肃】开展青少年近视调查工作
+【贵州】两次提高城乡居民基础养老金标准
+【广西】多举措降低企业用地成本
+
+
+
+
+
+经典瞬间秒懂国务院　
+
+
+
+
+ 
+李克强参观华为公司“专利墙”（2015-01-04）
+
+
+
+
+
+ 
+秒懂国务院 | “证照分离”，分手快乐！
+
+
+
+
+
+
+
+
+
+政策政府信息公开专栏
+
+
+
+中共中央 国务院关于学前教育深化改革规范发展的若干意见 | 解读（11-15）
+
+国办印发关于调整国务院第二次全国污染源普查领导小组组成人员的通知（11-12）
+
+国办印发《政府网站集约化试点工作方案》（11-09）
+
+消防救援衔标志式样和佩带办法（11-08）
+
+国办印发《关于聚焦企业关切进一步推动优化营商环境政策落实的通知》（11-08）
+
+国办印发《关于调整国务院抗震救灾指挥部组成人员的通知》（11-07）
+
+国务院批复进一步支持杨凌农业高新技术产业示范区发展若干政策（11-05）
+
+
+
+
+
+
+文件库
+国务院公报
+
+
+
+
+
+
+全部
+过去一周
+过去一月
+
+
+
+至
+
+
+高级搜索
+
+
+
+        $(function(){
+          $("input.searchwj").val("搜索")
+        })
+      
+
+
+
+
+
+
+          a {
+            text-decoration: none;
+          }
+          .con_01 {
+            width: 295px;
+            height: 365px;
+            margin: 0px auto;
+          }
+          .btn_001 {
+            float: left;
+            width: 98px;
+            height:28px;
+            margin: 0px 24px;
+            line-height: 27px;
+            text-align: center;
+            background-image: url('/govweb/xhtml/2016gov/20170512ceshi/images/btn0512.png');
+          }
+          .btn_001 a {
+            color: #fff;
+            font-size: 14px;
+            /*font-weight: bold;*/
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .box_0001 {
+            clear: both;
+            position: relative;
+            width: 281px;
+            height: 109px;
+            margin-bottom: 15px;
+            padding: 12px 5px 5px 5px;
+            border: 1px solid #ccc;
+          }
+          .box_0001 h3 {
+            position: absolute;
+            left: 100px;
+            top: -12px;
+            width: 77px;
+            height: 24px;
+            text-align: center;
+            background-color: #fff;
+          }
+          .box_0001 h3 a {
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 24px;
+            color: #3c3c3c;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+       .left_right_sroll_father{
+            position: relative;
+            height: 143px;
+            width: 293px;
+            overflow: hidden;
+          }
+          .left_right_sroll{
+             position: absolute;
+             left: 0;
+             top: 0;
+          }
+          .left_right_sroll .box_0001{
+            float: left;
+            clear: none;
+          }
+          .wenzi_box {
+            float: left;
+            width: 158px;
+            margin-right: 10px;
+          }
+          .wenzi_box h2{
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 4px;
+            color: #015293;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .wenzi_box h2 a{
+            font-weight: bold;
+            font-size: 15px;
+            color: #015293;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .wenzi_box p {
+            color: #1a1a1a;
+            font-size: 13px;
+            line-height: 20px;
+            font-family: "Microsoft Yahei", 宋体, Arial, Helvetica, sans-serif;
+          }
+          .wenzi_box p a {
+            color: #2ea0fb;
+          }
+          .anniu_box {
+            clear: both;
+            height: 44px;
+          }
+          .r_pic {
+            float: right;
+            width: 105px;
+            height: 105px;
+    
+          }
+          .mb_8 {
+            margin-bottom: 8px;
+          }
+      .column3ri1 .lmtit{
+        border-bottom:1px solid #b7b7b8;}
+        .qgzwfwzmh20180530 p a{color:#888888;}
+        
+
+
+互动
+  |  答题国务院大事我知道
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+我要留言
+
+留言选登
+
+
+
+
+
+
+国务院大事我知道2018年第11期
+
+
+                            2018年10月哪些政府工作是你关心的？来参与趣味小测试测一测吧！>>>
+
+ 
+  
+
+
+
+
+国务院大事我知道2018年第10期
+
+
+                            2018年9月哪些政府工作是你关心的？来参与趣味小测试测一测吧！>>>
+
+ 
+  
+
+
+
+
+
+
+回应关切
+
+
+
+税务总局：严格按5000元费用减除标准扣税
+
+
+                          扣缴义务人错选税款所属月份导致未享受减除费用，可申请退税。>>>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+部长之声发布会
+ 
+知识产权局：放宽专利代理行业准入
+
+
+新闻办介绍《反垄断法》实施十周年情况
+新闻办召开新闻发布会介绍2018年10月份国民经济运行情况
+海关总署：今年我国进出口整体通关时间将分别压缩至65小时、8.2小时
+人社部解读前三季度就业、社会保障等数据
+新闻办举行发布会介绍银行业和保险业服务民营、小微企业有关情况
+
+
+
+
+
+
+督查
+
+
+
+
+生态环境部通报2018-2019年蓝天保卫战重点区域强化监督检查情况
+第二批中央生态环境保护督察“回头看”全部实现督察进驻
+水利部召开河湖执法督查工作推进会
+生态环境部通报2018-2019年蓝天保卫战重点区域强化监督重污染天气应对检查情况
+第二批中央生态环境保护督察“回头看”近日将全面启动
+
+
+
+
+
+
+
+
+
+$(function(){
+  var weather_box_small = $("#weather_box_small");
+  $.ajax({  
+        type: "GET",  
+        async: true,  
+        url: "http://bmfw.www.gov.cn/ZFW-AccessPlatform/front/weather/observe_ky.do?callback=?",
+        data:{},
+        dataType: "jsonp",  
+        //jsonp: "callback",//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback)   
+        success: function (data) { 
+          if(weather_box_small.length > 0){
+          var html_2 = "<div style='width:110px;height:25px;position:relative;'>"
+                  +"<img style='float: left;width:25px;height:25px;' src='http://bmfw.www.gov.cn"+data.weatherPicture_small+"'>"
+                +"<p style='margin:0;display: block;font-size: 16px;float: left;height: 25px;line-height: 25px;font-family: Microsoft YaHei;margin-left: 7px;'>"+data.temperature+"℃ "+data.city+"</p>"
+                +"</div>";
+          $("#weather_box_small").html(html_2);
+        }  
+        },  
+        error: function (XMLHttpRequest, textStatus, errorThrown) {  
+          
+        }  
+    });  
+});
+
+
+
+
+
+
+服务
+
+
+
+全国政务服务总门户
+
+
+
+
+
+
+
+
+
+热词：
+
+
+
+
+      $(function(){
+       $('#q').on('focus',function () {
+           $(this).css("color","#000");
+          if($(this).val()=='请输入你想找的服务'){
+        
+            $(this).val('');
+          
+            
+        }
+       });
+      $("#pc_submit").click(function(){
+          var q=$("#q").val();
+          var category=$(".zhetie h3 a.on").attr("name");
+          var search_url="http://search.www.gov.cn/search/fw/cateSearch.do?webid=1&category="+category+"&q="+encodeURIComponent(q);
+          if(q == '请输入你想找的服务'){
+            q = '';
+          }
+          if(category==""||category==null){
+            search_url="http://search.www.gov.cn/search/fw/search.do?webid=1&q="+encodeURIComponent(q);
+
+          }
+          window.open(search_url,"_blank")
+        })
+      $(".pc_search #q").keydown(function(){
+          if(event.keyCode == "13"){
+            $("#pc_submit").click();
+          }
+        })
+        $.ajax({
+            type: "get",
+            url: "http://search.www.gov.cn/search/search/plugin/wordranklist.do?size=4&webid=1",
+            async: true,
+            dataType:'jsonp',
+            crossDomain: true,
+            success: function(response) {
+              var html = '';
+              var count = 0;
+              $.each(eval(response),function(index,value){
+                html += "<a target='_blank' href='http://search.www.gov.cn/search/fw/search.do?webid=1&q="+encodeURI(value)+"'>"+value+"</a>";
+                count++;
+              });
+              $('.a').append(html);
+            }
+          });
+        
+      })
+      
+    
+
+
+2018年部分节假日安排 | 图解
+国务院本周提醒
+国务院@你，本周6件民生大事
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+走失人口查询[天津]
+
+
+
+
+
+
+
+ 
+
+
+
+户籍办理进度查询[吉林]
+
+
+
+
+
+
+
+推荐主题
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+1
+2
+3
+
+
+
+
+最新应用
+
+
+ 
+
+                [天津]
+              
+              走失人口查询
+            
+
+
+
+ 
+
+                [北京]
+              
+              居住证办理网点查询
+            
+
+
+
+ 
+
+                [天津]
+              
+              机动车违法查询
+            
+
+
+
+ 
+
+                [广东]
+              
+              国家职业资格证书查询
+            
+
+
+
+
+
+
+数据
+
+
+10月份全国城镇调查失业率为4.9% 与上月持平
+10月份规模以上工业增加值同比实际增长5.9%
+10月份高技术制造业增加值同比增长12.4%
+
+
+
+数据查询与下载
+
+GDP
+CPI
+PPI 
+粮食产量 
+工业生产增长速度
+总人口
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(function(){
+  $('.date_picker').date_input();
+  })
+
+
+
+
+
+
+$(function(){   
+    /*focus*/
+    var sliderElement = $('.slider-carousel');
+    sliderElement.slidesjs({
+        play: {
+            auto: true,
+            effect: 'fade'
+        },
+        navigation: {
+            effect: "fade"
+        },
+        pagination: {
+            effect: "fade"
+        },
+        effect: {
+            slide: {
+                speed: 400
+            }
+        }
+    });
+    var slidernav = sliderElement.find('.slidesjs-navigation');
+    sliderElement.hover(function() {
+        slidernav.stop().show()
+    },function() {
+        slidernav.stop().hide()
+    });
+  
+  slidernav.hover(function(){
+    $(this).show();
+  }),function(){
+    $(this).show();
+  }
+  
+
+    $(".flexslider").each(function(){
+        $(this).hover(function(){
+            $(this).find(".flex-direction-nav").fadeIn("slow")
+        },function(){
+            $(this).find(".flex-direction-nav").hide()
+        })
+    })
+});
+
+
+
+  ;(function ($) {
+    
+      /*$('.left_right_sroll_father').slideshow({
+            bigImgScroll_list:'.left_right_sroll',
+            bigImgScroll_btn:'.bigImgScroll_btn',
+            bigImgScroll_listItem_margin:0,
+            scrollTime:500,
+            isAuto:false,
+            isFloat:true
+      });*/
+      
+        var $box_0001_width=$('.left_right_sroll .box_0001').outerWidth(true);
+    
+        
+        var $box_0001_length=$('.left_right_sroll .box_0001').length;
+        
+        $('.left_right_sroll').width($box_0001_width*$box_0001_length);
+        
+  })(jQuery);
+
+
+
+      jQuery(function(){
+      if (!$('#hdPic')[0]) 
+      return;
+      var i = 0, p = $('#hdPic ul'), pList = $('#hdPic ul li'), len = pList.length;
+      var elePrev = $('#prev'), eleNext = $('#next');
+      //var firstClick = false;
+      var w = 100, num = 3;
+      p.css('width',w*len);
+      if (len <= num) 
+      eleNext.addClass('gray');
+      function prev(){
+      if (elePrev.hasClass('gray')) {
+        
+      //alert('已经是第一张了');
+      return;
+      }
+      p.animate({
+      marginTop:-(--i) * w
+      },500);
+      if (i < len - num) {
+      eleNext.removeClass('gray');
+
+      }
+      if (i == 0) {
+      elePrev.addClass('gray');
+    
+      }
+      }
+      function next(){
+      if (eleNext.hasClass('gray')) {
+        
+      //alert('已经是最后一张了');
+
+      return;
+      }
+      //p.css('margin-left',-(++i) * w);
+      p.animate({
+      marginTop:-(++i) * w
+      },500);
+      if (i != 0) {
+      elePrev.removeClass('gray');
+      }
+      if (i == len - num) {
+      eleNext.addClass('gray');
+      }
+      }
+      elePrev.bind('click',prev);
+      eleNext.bind('click',next);
+      pList.each(function(n,v){
+      $(this).click(function(){
+      if(n-i == 2){
+      next();
+      }
+      if(n-i == 0){
+      prev()
+      }
+      $('#hdPic ul li.cur').removeClass('cur');
+      $(this).addClass('cur');
+      show(n);
+      }).mouseover(function(){
+      $(this).addClass('hover');
+      }).mouseout(function(){
+      $(this).removeClass('hover');
+      })
+      });
+      
+      });
+
+
+
+    jQuery(".two_fwzt_slide").slide({
+        mainCell: ".bd ul",
+        autoPlay: true,
+        delayTime:2000,
+        triggerTime:500,
+        interTime:5000
+      });
+
+
+  
+
+
+
+
+  function getRootPath(){
+      //获取当前网址，
+      var curPath=window.document.location.href;
+      //获取主机地址之后的目录，
+      var pathName=window.document.location.pathname;
+      var pos=curPath.indexOf(pathName);
+      //获取主机地址
+      var localhostPaht=curPath.substring(0,pos);
+      //获取带"/"的项目名，
+      var projectName=pathName.substring(0,pathName.substr(1).indexOf('/')+1);
+      return(localhostPaht+projectName);
+  }
+   function GetQueryString(name)
+  {
+       var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+       var r = decodeURI(window.location.search).substr(1).match(reg);
+       if(r!=null)return  r[2]; return null;
+  }
+  var servicecode = GetQueryString("servicecode");
+  var gourl = document.referrer;
+  var time = GetQueryString("time");
+  var sign = GetQueryString("sign");
+  var showname = GetQueryString("showname");
+  var ip = getRootPath();
+  /* if(servicecode==null||servicecode==""||time==null||time==""||sign==null||sign==""){
+    servicecode = "idm";
+    time = "20171010121212";
+    sign = "7c4b1d93fa33e1fe51ba119bea0a56aa";
+  } */
+  if(servicecode==null||servicecode==""||time==null||time==""||sign==null||sign==""){
+    servicecode = "zfw";
+    time = "20171010121212";
+    sign = "18403a6fefb59a54620a22e3609fe213";
+  }
+  idm.config({
+    debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert
+    url:'https://user.www.gov.cn/',   // 必填，idm地址
+      servicecode: servicecode,         // 必填，接入代码
+      time: time,
+    sign: sign, // 必填，签名
+    success:function(){ // 回调函数（成功）
+      islogin();
+    },
+    fail:function(r)  { // 回调函数(失败)
+      $(".nologin").removeClass("hide");
+    }
+  });  
+  
+  
+   
+   $(function(){
+    /*  if(showname!=null&&showname!=""&&showname.length>0){
+      //注意 这个脱敏手机号进行了修改 页面上显示只能达到八个字符
+      if(showname.length==11){
+        showname = showname.replace('****','*');
+      }else{
+        showname = "  "+showname;
+      }
+      $("#showname").html(showname);
+      $(".yeslogin").removeClass("hide");
+      $(".nologin").addClass("hide");
+     } */
+     
+     
+    //注册页面
+    $('#userreg').click(function(){
+      idm.user.openreg ({
+        redirect:true,
+        gourl: gourl,// 业务地址：非必填。回调总入口将以sp参数返回
+        extargs: ''   // 扩展参数：非必填。回调将回传
+      });
+    })
+    //登录页面
+    $('#userlogin').click(function(){
+      idm.user.openlogin ({
+        redirect:true,
+        gourl: gourl,// 业务地址：非必填。回调总入口将以sp参数返回
+        extargs: ''   // 扩展参数：非必填。回调将回传
+      });
+    })
+    
+    //个人中心
+    $('#usercenter').click(function(){
+       idm.user.openedit ({
+          gourl: gourl  // 票据：非必填。
+      }); 
+    })
+      //退出登录
+    $("#logout").click(function(){
+      
+      /* $.post(logoutUrl,function(){
+        location.reload();
+      }); */
+       idm.user.logout({
+        success:function(){ // 回调函数（成功）
+          if(gourl!=null&&gourl!=""){
+            window.location.href = gourl;
+          }else{
+            window.location.href = "https://user.www.gov.cn/";
+          }
+          
+        },
+        fail:function(r)  { // 回调函数(失败)
+          
+        }
+      }) 
+    })
+  })
+   
+    
+  
+  function islogin(){
+    idm.user.islogin ({
+    success:function(r){  // 回调函数（成功）
+      var showname = r.showname;
+      if(showname==undefined){
+        showname = "****";
+      }
+      //注意 这个脱敏手机号进行了修改 页面上显示只能达到八个字符
+      if(showname.length==11){
+        showname = showname.replace('****','*');
+      }else{
+        showname = "  "+showname;
+      }
+      $("#showname").html(showname);
+      $(".yeslogin").removeClass("hide");
+      $(".nologin").addClass("hide");
+    },
+    fail:function(r)  { // 回调函数(失败)
+      $(".nologin").removeClass("hide");
+      $(".yeslogin").addClass("hide");
+    }
+    });
+  } 
+
+
+$("#js-rotating3").Morphext({
+  animation: "lightSpeedIn"
+});
+
+
+
+  ;(function ($) {
+    
+    $('.dys_fudong').hover(
+      function () {
+        $(this).animate({
+          top:-5
+        });
+      },
+      function () {
+        $(this).animate({
+          top:0
+        });
+      }
+    );
+    
+    
+  })(jQuery);
+
+
+
+  (function ($) {
+      var $fuwulenght=$('.two_yyphb_box li').length;
+      
+      switch ($fuwulenght){
+        case 1:$('.two_yyphb_box li').eq(0).css('border-bottom', 'none');
+          break;
+        case 2:
+          $('.two_yyphb_box li').eq(1).css('border-bottom', 'none');
+          
+          break;
+        case 3:
+          $('.two_yyphb_box li').eq(2).css('border-bottom', 'none');
+          
+          break;
+        default:
+          break;
+      }
+  })(jQuery);
+
+
+
+
+      /*滚动插件slider*/
+      /*调用$().slider({})*/
+      ;(function ($) {
+        $('.box20180503').slider({
+          //显示的子元素个数
+          showNum:1,
+          //滚动的个数
+          scrollNum:1,
+          //子元素间隔
+          scrollItemSpacing:1,
+          //是否自动滚动
+          isAuto:false,
+          //滚动的容器
+          sliderContainer:'.two_rmfl_box',
+          //幻灯片导航
+          sliderNav:'.hot_title_nav20180517',
+          //滚动间隔时间
+          scrollTime:1000
+       
+        });
+        
+      })(jQuery);
+      
+    
+
+document.write(unescape("%3Cscript src='http://stat.www.gov.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));
+wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")
+
+
+(function() {
+    var N = 100;
+    var P = 0.9;
+    var R = N * P;
+    var X = Math.floor(Math.random() * N);
+    if (R >= X) {
+        _atrk_opts = {
+            atrk_acct: "noGfn1aMp4107i",
+            domain: "www.gov.cn",
+            dynamic: true
+        }; 
+        (function() {
+            var as = document.createElement("script");
+            as.type = "text/javascript";
+            as.async = true;
+            as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js";
+            var s = document.getElementsByTagName("script")[0];
+            var ns = document.createElement("noscript");
+            var img = document.createElement("img");
+            img.src ="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=noGfn1aMp4107i";
+            img.style="display:none";
+            img.height = 1;
+            img.width = 1;
+            img.alt = "";
+            s.parentNode.insertBefore(as, s);
+            s.parentNode.insertBefore(ns, s);
+            var nso = document.getElementsByTagName("noscript")[0];
+            nso.appendChild(img);
+        })();
+    }
+})();
+
+

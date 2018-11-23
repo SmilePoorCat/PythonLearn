@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+
+
+国务院客户端_中国政府网
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+国务院客户端是国务院发布政务信息和提供在线服务的新媒体平台，由国务院办公厅主办，中国政府网运行中心负责运行维护。
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+document.write(unescape("%3Cscript src='http://stat.www.gov.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));
+wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")
+
+
+(function() {
+    var N = 100;
+    var P = 0.7;
+    var R = N * P;
+    var X = Math.floor(Math.random() * N);
+    if (R >= X) {
+        _atrk_opts = {
+            atrk_acct: "noGfn1aMp4107i",
+            domain: "www.gov.cn",
+            dynamic: true
+        }; 
+        (function() {
+            var as = document.createElement("script");
+            as.type = "text/javascript";
+            as.async = true;
+            as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js";
+            var s = document.getElementsByTagName("script")[0];
+            var ns = document.createElement("noscript");
+            var img = document.createElement("img");
+            img.src ="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=noGfn1aMp4107i";
+            img.style="display:none";
+            img.height = 1;
+            img.width = 1;
+            img.alt = "";
+            s.parentNode.insertBefore(as, s);
+            s.parentNode.insertBefore(ns, s);
+            var nso = document.getElementsByTagName("noscript")[0];
+            nso.appendChild(img);
+        })();
+    }
+})();
+
+
+
