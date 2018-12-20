@@ -117,55 +117,70 @@ class ProxyFetchSpider(Spider):
             logger.info('无效代理  %s' % proxy)
             yield None
 
-    #def parse_xici(self, response):
-    #    '''
-    #    @url http://www.xicidaili.com/nn/
-    #    '''
-    #    logger.info('解析http://www.xicidaili.com/nn/')
-    #    succ = 0
-    #    fail = 0
-    #    count = 0
-    #    for tr in response.css('#ip_list tr'):
-    #        td_list = tr.css('td::text')
-    #        if len(td_list) < 3:
-    #            continue
-    #        ipaddr = td_list[0].extract()
-    #        port = td_list[1].extract()
-    #        proto = td_list[5].extract()
-    #        latency = tr.css('div.bar::attr(title)').extract_first()
-    #        latency = re.match('(\d+\.\d+)秒', latency).group(1)
-    #        proxy = '%s://%s:%s' % (proto, ipaddr, port)
-    #        #print(proto, ipaddr, port)
-    #        proxies = {proto: '%s:%s' % (ipaddr, port)}
-    #        #if float(latency) > 5:
-    #        #    logger.info('丢弃慢速代理: %s 延迟%s秒' % (proxy, latency))
-    #        #    continue
-    #        logger.info('验证: %s' % proxy)
-    #        if not self.redis_db.sismember(self.PROXY_SET, proxy):
-    #            vaurl, vastart = random.choice(list(self.validator_pool))
-    #            yield Request(url=vaurl, meta={'proxy': proxy, 'startstring': vastart}, callback=self.checkin,
-    #                          dont_filter=True)
-    #        else:
-    #            logger.info('该代理已收录..')
+    def parse_xici(self, response):
+        '''
+        @url http://www.xicidaili.com/nn/
+        '''
+        logger.info('解析http://www.xicidaili.com/nn/1')
+        succ = 0
+        fail = 0
+        count = 0
+        url_pattern = 'http://www.xicidaili.com/nn/1'
+        try:
+            page = re.search('(\d)', response.url).group(1)
+            page = int(page)
+            print('page' + str(page))
+        except Exception as e:
+            logger.exception(e)
+            logger.error(response.url)
+        for tr in response.css('#ip_list tr'):
+            td_list = tr.css('td::text')
+            if len(td_list) < 3:
+                continue
+            ipaddr = td_list[0].extract()
+            port = td_list[1].extract()
+            proto = td_list[5].extract()
+            latency = tr.css('div.bar::attr(title)').extract_first()
+            latency = re.match('(\d+\.\d+)秒', latency).group(1)
+            proxy = '%s://%s:%s' % (proto, ipaddr, port)
+            #print(proto, ipaddr, port)
+            proxies = {proto: '%s:%s' % (ipaddr, port)}
+            #if float(latency) > 5:
+            #    logger.info('丢弃慢速代理: %s 延迟%s秒' % (proxy, latency))
+            #    continue
+            logger.info('验证: %s' % proxy)
+            if not self.redis_db.sismember(self.PROXY_SET, proxy):
+                vaurl, vastart = random.choice(list(self.validator_pool))
+                yield Request(url=vaurl, meta={'proxy': proxy, 'startstring': vastart}, callback=self.checkin,
+                              dont_filter=True)
+            else:
+                logger.info('该代理已收录..')
+        if page < 3:  # 爬取前3页
+            page += 1
+            #new_url = url_pattern % page
+            new_url = url_pattern[0:-1] + str(page) + '/'
+            new_meta = response.meta.copy()
+            new_meta['page'] = page
+            yield Request(url=new_url, meta=new_meta, callback=self.parse_xici)
 
-    #def parse_66ip(self, response):
-    #    '''
-    #    @url http://www.66ip.cn/nmtq.php?getnum=100&isp=0&anonymoustype=3&start=&ports=&export=&ipaddress=&area=1&proxytype=0&api=66ip
-    #    '''
-    #    logger.info('开始爬取66ip')
-    #    if 'proxy' in response.meta:
-    #        logger.info('=>使用代理%s' % response.meta['proxy'])
-    #    res = response.body_as_unicode()
-    #    for addr in re.findall('\d+\.\d+\.\d+\.\d+\:\d+', res):
-    #        proxy = 'http://' + addr
-    #        print(proxy)
-    #        logger.info('验证: %s' % proxy)
-    #        if not self.redis_db.sismember(self.PROXY_SET, proxy):
-    #            vaurl, vastart = random.choice(list(self.validator_pool))
-    #            yield Request(url=vaurl, meta={'proxy': proxy, 'startstring': vastart}, callback=self.checkin,
-    #                          dont_filter=True)
-    #        else:
-    #            logger.info('该代理已收录..')
+    def parse_66ip(self, response):
+        '''
+        @url http://www.66ip.cn/nmtq.php?getnum=100&isp=0&anonymoustype=3&start=&ports=&export=&ipaddress=&area=1&proxytype=0&api=66ip
+        '''
+        logger.info('开始爬取66ip')
+        if 'proxy' in response.meta:
+            logger.info('=>使用代理%s' % response.meta['proxy'])
+        res = response.body_as_unicode()
+        for addr in re.findall('\d+\.\d+\.\d+\.\d+\:\d+', res):
+            proxy = 'http://' + addr
+            print(proxy)
+            logger.info('验证: %s' % proxy)
+            if not self.redis_db.sismember(self.PROXY_SET, proxy):
+                vaurl, vastart = random.choice(list(self.validator_pool))
+                yield Request(url=vaurl, meta={'proxy': proxy, 'startstring': vastart}, callback=self.checkin,
+                              dont_filter=True)
+            else:
+                logger.info('该代理已收录..')
 #
     #def parse_ip181(self, response):
     #    '''
@@ -190,43 +205,49 @@ class ProxyFetchSpider(Spider):
     #        else:
     #            logger.info('该代理已收录..')
 #
-    def parse_kuaidaili(self, response):
-        '''
-        @url https://www.kuaidaili.com/free/inha/1/
-        '''
-        logger.info('开始爬取kuaidaili')
-        if 'proxy' in response.meta:
-            logger.info('=>使用代理%s' % response.meta['proxy'])
-        url_pattern = 'https://www.kuaidaili.com/free/inha/1/'
-        try:
-            page = re.search('(\d)', response.url).group(1)
-            page = int(page)
-            print('page' + str(page))
-        except Exception as e:
-            logger.exception(e)
-            logger.error(response.url)
-        for tr in response.css('table tbody tr'):
-            ip = tr.css('td::text').extract()[0]
-            port = tr.css('td::text').extract()[1]
-            proxy = 'http://%s:%s' % (ip, port)
-            logger.info('验证: %s' % proxy)
-            if not self.redis_db.sismember(self.PROXY_SET, proxy):
-                vaurl, vastart = random.choice(list(self.validator_pool))
-                yield Request(url=vaurl, meta={'proxy': proxy, 'startstring': vastart}, callback=self.checkin,
-                              dont_filter=True)
-            else:
-                logger.info('该代理已收录..')
-        if page < 3:  # 爬取前3页
-            page += 1
-            new_url = url_pattern % page
-            new_meta = response.meta.copy()
-            new_meta['page'] = page
-            yield Request(url=new_url, meta=new_meta, callback=self.parse_kuaidaili)
-
+    #def parse_kuaidaili(self, response):
+    #    '''
+    #    @url https://www.kuaidaili.com/free/inha/1/
+    #    '''
+    #    logger.info('开始爬取kuaidaili')
+    #    if 'proxy' in response.meta:
+    #        logger.info('=>使用代理%s' % response.meta['proxy'])
+    #    url_pattern = 'https://www.kuaidaili.com/free/inha/1/'
+    #    try:
+    #        page = re.search('(\d)', response.url).group(1)
+    #        page = int(page)
+    #        print('page' + str(page))
+    #    except Exception as e:
+    #        logger.exception(e)
+    #        logger.error(response.url)
+    #    for tr in response.css('table tbody tr'):
+    #        ip = tr.css('td::text').extract()[0]
+    #        port = tr.css('td::text').extract()[1]
+    #        proxy = 'http://%s:%s' % (ip, port)
+    #        logger.info('验证: %s' % proxy)
+    #        if not self.redis_db.sismember(self.PROXY_SET, proxy):
+    #            vaurl, vastart = random.choice(list(self.validator_pool))
+    #            yield Request(url=vaurl, meta={'proxy': proxy, 'startstring': vastart}, callback=self.checkin,
+    #                          dont_filter=True)
+    #        else:
+    #            logger.info('该代理已收录..')
+    #    if page < 3:  # 爬取前3页
+    #        page += 1
+    #        #new_url = url_pattern % page
+    #        new_url = url_pattern[0:-2] + str(page) + '/'
+    #        new_meta = response.meta.copy()
+    #        new_meta['page'] = page
+    #        yield Request(url=new_url, meta=new_meta, callback=self.parse_kuaidaili)
+#
     def closed(self, reason):
         logger.info('代理池更新完成，有效代理数: %s' % self.redis_db.scard(self.PROXY_SET))
 
 
 if __name__ == '__main__':
-    fetch = ProxyFetchSpider()
-    fetch.parse_kuaidaili()
+    #fetch = ProxyFetchSpider()
+    #fetch.parse_kuaidaili()
+    url_pattern = 'https://www.xicidaili.com/nn/1'
+    page = 2
+    new_url = url_pattern[0:-1] + str(page) + '/'
+    print(new_url)
+
